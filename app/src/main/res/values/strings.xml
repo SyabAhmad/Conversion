@@ -3,4 +3,8 @@
     <string name="length">Length</string>
     <string name="conversion_make_simple">Conversion Make Simple</string>
     <string name="todo">TODO</string>
+    <string name="conversion_of_inches_to_mm">Conversion of Inches To MM</string>
+    <string name="_12">12</string>
+    <string name="result">Result</string>
+    <string name="show">Show</string>
 </resources>
