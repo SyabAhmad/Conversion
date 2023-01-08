@@ -202,6 +202,7 @@
             tools:ignore="RtlSymmetry">
 
             <ImageButton
+                android:id="@+id/yearsToMonths"
                 android:layout_width="98dp"
                 android:layout_height="match_parent"
                 android:clickable="true"
@@ -213,6 +214,7 @@
                 tools:ignore="DuplicateSpeakableTextCheck,RtlSymmetry" />
 
             <ImageButton
+                android:id="@+id/monthsToWeeks"
                 android:layout_width="117dp"
                 android:layout_height="match_parent"
                 android:contentDescription="@string/todo"
@@ -221,6 +223,7 @@
                 android:src="@drawable/timeiconn" />
 
             <ImageButton
+                android:id="@+id/weeksToDays"
                 android:layout_width="102dp"
                 android:layout_height="match_parent"
                 android:contentDescription="@string/todo"

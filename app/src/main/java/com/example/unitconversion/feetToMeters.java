@@ -20,10 +20,15 @@ public class feetToMeters extends AppCompatActivity {
             public void onClick(View v) {
                 EditText value1 = (EditText) findViewById(R.id.feetValue);
                 if (value1.length()!=0){
-                    double result = Double.parseDouble(value1.getText().toString());
-                    double result1 = result*0.3048;
-                    TextView textview1 = (TextView) findViewById(R.id.resultfeetToMeters);
-                    textview1.setText(String.valueOf(result1));
+                    if (value1.getText().toString().equals("."))
+                    {
+                        Toast.makeText(getApplicationContext(),"Invalid", Toast.LENGTH_LONG).show();
+                    } else{
+                        double result = Double.parseDouble(value1.getText().toString());
+                        double result1 = result*0.3048;
+                        TextView textview1 = (TextView) findViewById(R.id.resultfeetToMeters);
+                        textview1.setText(String.valueOf(result1));
+                    }
                 }else{
                     Toast.makeText(getApplicationContext(),"Please Type Somthing First", Toast.LENGTH_LONG).show();
                 }

@@ -8,29 +8,28 @@ import android.widget.TextView;
 import android.widget.Toast;
 
 import androidx.appcompat.app.AppCompatActivity;
-public class mmToInches extends AppCompatActivity {
+public class kmToMiles extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState){
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.mmtoinches);
+        setContentView(R.layout.kmtomiles);
 
-        Button btn1 = (Button) findViewById(R.id.findMmToInches);
+        Button btn1 = (Button) findViewById(R.id.findKmToMiles);
         btn1.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                EditText value1 = (EditText) findViewById(R.id.mmValue);
+                EditText value1 = (EditText) findViewById(R.id.kmValue);
                 if (value1.length()!=0){
                     if (value1.getText().toString().equals(".")) {
                         Toast.makeText(getApplicationContext(), "Invalid", Toast.LENGTH_LONG).show();
                     }else{
                         double result = Double.parseDouble(value1.getText().toString());
-                        double result1 = result*0.03937;
-                        TextView textview1 = (TextView) findViewById(R.id.resultMmToInches);
+                        double result1 = result*0.6214;
+                        TextView textview1 = (TextView) findViewById(R.id.resultKmToMiles);
                         textview1.setText(String.valueOf(result1));
                     }
 
-                } else
-                {
+                }else{
                     Toast.makeText(getApplicationContext(),"Please Type Somthing First", Toast.LENGTH_LONG).show();
                 }
             }
@@ -38,3 +37,5 @@ public class mmToInches extends AppCompatActivity {
 
     }
 }
+
+

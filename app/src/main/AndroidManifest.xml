@@ -25,6 +25,11 @@
         <activity android:name="com.example.unitconversion.inchesToMm"> </activity>
         <activity android:name="com.example.unitconversion.mmToInches"> </activity>
         <activity android:name="com.example.unitconversion.feetToMeters"> </activity>
+        <activity android:name="com.example.unitconversion.meterToFeets"> </activity>
+        <activity android:name="com.example.unitconversion.yardsToMeter"> </activity>
+        <activity android:name="com.example.unitconversion.metersToYards"> </activity>
+        <activity android:name="com.example.unitconversion.milesToKm"> </activity>
+        <activity android:name="com.example.unitconversion.kmToMiles"> </activity>
     </application>
 
 </manifest>
