@@ -7,4 +7,6 @@
     <string name="_12">12</string>
     <string name="result">Result</string>
     <string name="show">Show</string>
+    <string name="conversion_of_millimeter_to_inches">Conversion of MilliMeter To Inches</string>
+    <string name="conversion_of_millimeter_to_inche">conversion of millimeter to inches</string>
 </resources>

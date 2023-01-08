@@ -17,10 +17,19 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.activity_main);
 
 
-        ImageButton button1 = (ImageButton) findViewById(R.id.inchToMm);
-        button1.setOnClickListener(v -> {
+        ImageButton lengthButton1 = (ImageButton) findViewById(R.id.inchToMm);
+        lengthButton1.setOnClickListener(v -> {
             Intent intent = new Intent(MainActivity.this, inchesToMm.class);
             startActivity(intent);
+        });
+
+        ImageButton lengthButton2 = (ImageButton) findViewById(R.id.mmToInch);
+        lengthButton2.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(MainActivity.this, mmToInches.class);
+                startActivity(intent);
+            }
         });
 
 

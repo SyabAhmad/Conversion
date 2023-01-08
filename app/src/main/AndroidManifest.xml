@@ -23,7 +23,10 @@
             </intent-filter>
         </activity>
         <activity
-            android:name=".inchesToMm">
+            android:name="com.example.unitconversion.inchesToMm">
+
+        </activity>
+        <activity android:name="com.example.unitconversion.mmToInches">
 
         </activity>
     </application>
