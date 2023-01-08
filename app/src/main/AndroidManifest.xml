@@ -22,13 +22,9 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity
-            android:name="com.example.unitconversion.inchesToMm">
-
-        </activity>
-        <activity android:name="com.example.unitconversion.mmToInches">
-
-        </activity>
+        <activity android:name="com.example.unitconversion.inchesToMm"> </activity>
+        <activity android:name="com.example.unitconversion.mmToInches"> </activity>
+        <activity android:name="com.example.unitconversion.feetToMeters"> </activity>
     </application>
 
 </manifest>

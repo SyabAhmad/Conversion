@@ -8,6 +8,7 @@ import android.view.View;
 import android.widget.EditText;
 import android.widget.ImageButton;
 import android.widget.TextView;
+import android.widget.Toast;
 
 public class MainActivity extends AppCompatActivity {
 
@@ -19,6 +20,7 @@ public class MainActivity extends AppCompatActivity {
 
         ImageButton lengthButton1 = (ImageButton) findViewById(R.id.inchToMm);
         lengthButton1.setOnClickListener(v -> {
+            Toast.makeText(getApplicationContext(),"Great", Toast.LENGTH_LONG).show();
             Intent intent = new Intent(MainActivity.this, inchesToMm.class);
             startActivity(intent);
         });
@@ -27,11 +29,21 @@ public class MainActivity extends AppCompatActivity {
         lengthButton2.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
+                Toast.makeText(getApplicationContext(),"Great", Toast.LENGTH_LONG).show();
                 Intent intent = new Intent(MainActivity.this, mmToInches.class);
                 startActivity(intent);
             }
         });
 
+        ImageButton lengthButton3 = (ImageButton)  findViewById(R.id.feetToMeters);
+        lengthButton3.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Toast.makeText(getApplicationContext(),"Great", Toast.LENGTH_LONG).show();
+                Intent intent = new Intent(MainActivity.this, feetToMeters.class);
+                startActivity(intent);
+            }
+        });
 
 
 
