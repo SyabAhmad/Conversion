@@ -9,4 +9,14 @@
     <string name="show">Show</string>
     <string name="conversion_of_millimeter_to_inches">Conversion of MilliMeter To Inches</string>
     <string name="conversion_of_millimeter_to_inche">conversion of millimeter to inches</string>
+    <string name="conversion_of_temperature">Conversion Of Temperature</string>
+    <string name="c_value">C Value</string>
+    <string name="fahrenheit_value">Fahrenheit Value</string>
+    <string name="celsius_value">Celsius Value</string>
+    <string name="kelvin_value">Kelvin Value</string>
+    <string name="k_value">K Value</string>
+    <string name="find_values">Find Values</string>
+    <string name="developed_by_syab_ahamd_n_support_us_by_sharing_this_application">Developed By: Syab Ahamd\n Support us By Sharing this Application</string>
+    <string name="clear_all">Clear All</string>
+    <string name="f_value">F Value</string>
 </resources>

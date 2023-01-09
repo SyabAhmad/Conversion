@@ -9,31 +9,63 @@ import android.widget.Toast;
 
 import androidx.appcompat.app.AppCompatActivity;
 public class temperaturePanel extends AppCompatActivity {
+
+
+
+
     @Override
     protected void onCreate(Bundle savedInstanceState){
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.moreconversions);
+        setContentView(R.layout.temperaturepanel);
 
-        Button btn1 = (Button) findViewById(R.id.findKmToMiles);
-        btn1.setOnClickListener(new View.OnClickListener() {
+        EditText celsiusValue1 = (EditText) findViewById(R.id.celsiusValue);
+        EditText fahrenheitValue1 = (EditText) findViewById(R.id.fahrenheitValue);
+        EditText kelvinValue1 = (EditText) findViewById(R.id.kelvinValue);
+
+        Button tempButton = (Button) findViewById(R.id.findTempValues);
+
+        tempButton.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                EditText value1 = (EditText) findViewById(R.id.kmValue);
-                if (value1.length()!=0){
-                    if (value1.getText().toString().equals(".")) {
-                        Toast.makeText(getApplicationContext(), "Invalid", Toast.LENGTH_LONG).show();
-                    }else{
-                        double result = Double.parseDouble(value1.getText().toString());
-                        double result1 = result*0.6214;
-                        TextView textview1 = (TextView) findViewById(R.id.resultKmToMiles);
-                        textview1.setText(String.valueOf(result1));
-                    }
+                if (celsiusValue1.length() != 0)
+                {
+                    double newValue1 = Double.parseDouble(celsiusValue1.getText().toString());
+                    double result1 = (newValue1*9/5) +32;
+                    fahrenheitValue1.setText(String.valueOf(result1));
+                    double result2 = newValue1+273.5;
+                    kelvinValue1.setText(String.valueOf(result2));
+                } else if(fahrenheitValue1.length() !=0)
+                {
+                    double newValue2 = Double.parseDouble(fahrenheitValue1.getText().toString());
+                    double result1 = (newValue2+459.67)*5/9;
+                    kelvinValue1.setText(String.valueOf(result1));
+                    double result2 = (newValue2-32)*5/9;
+                    celsiusValue1.setText(String.valueOf(result2));
 
-                }else{
-                    Toast.makeText(getApplicationContext(),"Please Type Somthing First", Toast.LENGTH_LONG).show();
+                } else if(kelvinValue1.length() !=0)
+                {
+                    double newValue3 = Double.parseDouble(kelvinValue1.getText().toString());
+                    double result1 = (newValue3*9/5)-459.67;
+                    fahrenheitValue1.setText(String.valueOf(result1));
+                    double result2 = newValue3-273.15;
+                    celsiusValue1.setText(String.valueOf(result2));
+                } else{
+                    Toast.makeText(getApplicationContext(), "Type something First", Toast.LENGTH_SHORT).show();
                 }
             }
         });
+
+        Button clearbtn = (Button) findViewById(R.id.clearAllTemp);
+        clearbtn.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                fahrenheitValue1.setText("");
+                celsiusValue1.setText("");
+                kelvinValue1.setText("");
+                Toast.makeText(getApplicationContext(),"cleared", Toast.LENGTH_SHORT).show();
+            }
+        });
+
 
     }
 }

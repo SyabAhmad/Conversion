@@ -119,39 +119,39 @@ public class MainActivity extends AppCompatActivity {
 
 
 
-        ImageButton timeButton1 = (ImageButton) findViewById(R.id.yearsToMonths);
-        timeButton1.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                Toast.makeText(getApplicationContext(), " Recently added", Toast.LENGTH_SHORT).show();
-                Intent intent = new Intent(MainActivity.this, yearsToMonth.class);
-                startActivity(intent);
-            }
-        });
-
-
-
-        ImageButton timeButton2 = (ImageButton) findViewById(R.id.monthsToWeeks);
-        timeButton2.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                Toast.makeText(getApplicationContext(), " Coming SOon", Toast.LENGTH_SHORT).show();
-                Intent intent = new Intent(MainActivity.this, monthsToWeeks.class);
-                startActivity(intent);
-            }
-        });
-
-
-
-        ImageButton timeButton3 = (ImageButton) findViewById(R.id.weeksToDays);
-        timeButton3.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                Toast.makeText(getApplicationContext(), " Coming SOon", Toast.LENGTH_SHORT).show();
-                Intent intent = new Intent(MainActivity.this, weeksToDays.class);
-                startActivity(intent);
-            }
-        });
+//        ImageButton timeButton1 = (ImageButton) findViewById(R.id.yearsToMonths);
+//        timeButton1.setOnClickListener(new View.OnClickListener() {
+//            @Override
+//            public void onClick(View v) {
+//                Toast.makeText(getApplicationContext(), " Recently added", Toast.LENGTH_SHORT).show();
+//                Intent intent = new Intent(MainActivity.this, yearsToMonth.class);
+//                startActivity(intent);
+//            }
+//        });
+//
+//
+//
+//        ImageButton timeButton2 = (ImageButton) findViewById(R.id.monthsToWeeks);
+//        timeButton2.setOnClickListener(new View.OnClickListener() {
+//            @Override
+//            public void onClick(View v) {
+//                Toast.makeText(getApplicationContext(), " Coming SOon", Toast.LENGTH_SHORT).show();
+//                Intent intent = new Intent(MainActivity.this, monthsToWeeks.class);
+//                startActivity(intent);
+//            }
+//        });
+//
+//
+//
+//        ImageButton timeButton3 = (ImageButton) findViewById(R.id.weeksToDays);
+//        timeButton3.setOnClickListener(new View.OnClickListener() {
+//            @Override
+//            public void onClick(View v) {
+//                Toast.makeText(getApplicationContext(), " Coming SOon", Toast.LENGTH_SHORT).show();
+//                Intent intent = new Intent(MainActivity.this, weeksToDays.class);
+//                startActivity(intent);
+//            }
+//        });
 
         Button showMore = (Button) findViewById(R.id.showMoreTools);
         showMore.setOnClickListener(new View.OnClickListener() {

@@ -75,6 +75,8 @@
                     android:layout_gravity="center_horizontal"
                     android:text="Temperature\n F` and C etc"
                     android:textAlignment="center"
+                    android:textColor="@color/black"
+                    android:backgroundTint="@color/white"
                     android:textSize="22dp"
                     android:textStyle="bold" />
 
@@ -95,6 +97,8 @@
                     android:id="@+id/weightButtonFinder"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
+                    android:textColor="@color/black"
+                    android:backgroundTint="@color/white"
                     android:layout_gravity="center_horizontal"
                     android:text="Weight KG and \nTon etc"
                     android:textAlignment="center"
@@ -117,6 +121,8 @@
                     android:id="@+id/computerConversionButtenFinder"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
+                    android:textColor="@color/black"
+                    android:backgroundTint="@color/white"
                     android:layout_gravity="center_horizontal"
                     android:text="computerConversion Binary to decimal etc"
                     android:textAlignment="center"
@@ -139,6 +145,8 @@
                     android:id="@+id/currencyConversionButtonFinder"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
+                    android:textColor="@color/black"
+                    android:backgroundTint="@color/white"
                     android:layout_gravity="center_horizontal"
                     android:text="Currency Conversion\n PKR to Doller"
                     android:textAlignment="center"
@@ -164,6 +172,8 @@
                     android:layout_height="wrap_content"
                     android:layout_gravity="center_horizontal"
                     android:text="Speed Convertor\n"
+                    android:textColor="@color/black"
+                    android:backgroundTint="@color/white"
                     android:textAlignment="center"
                     android:textSize="22dp"
                     android:textStyle="bold" />
@@ -188,6 +198,8 @@
                     android:layout_gravity="center_horizontal"
                     android:text="Current Conversion\n"
                     android:textAlignment="center"
+                    android:textColor="@color/black"
+                    android:backgroundTint="@color/white"
                     android:textSize="22dp"
                     android:textStyle="bold" />
 
@@ -211,6 +223,8 @@
                     android:layout_gravity="center_horizontal"
                     android:text="Fuil Convertor\n mile/gallon"
                     android:textAlignment="center"
+                    android:textColor="@color/black"
+                    android:backgroundTint="@color/white"
                     android:textSize="22dp"
                     android:textStyle="bold" />
 
@@ -233,6 +247,8 @@
                     android:layout_height="wrap_content"
                     android:layout_gravity="center_horizontal"
                     android:text="Force Convertor\n"
+                    android:textColor="@color/black"
+                    android:backgroundTint="@color/white"
                     android:textAlignment="center"
                     android:textSize="22dp"
                     android:textStyle="bold" />
@@ -256,6 +272,8 @@
                     android:layout_height="wrap_content"
                     android:layout_gravity="center_horizontal"
                     android:text="Volume Convertor\n"
+                    android:textColor="@color/black"
+                    android:backgroundTint="@color/white"
                     android:textAlignment="center"
                     android:textSize="22dp"
                     android:textStyle="bold" />
@@ -279,6 +297,8 @@
                     android:layout_gravity="center_horizontal"
                     android:text="Storage Convertor\nMB/GB"
                     android:textAlignment="center"
+                    android:textColor="@color/black"
+                    android:backgroundTint="@color/white"
                     android:textSize="22dp"
                     android:textStyle="bold" />
 
@@ -302,6 +322,8 @@
                     android:text="Sound Convertor\n"
                     android:textAlignment="center"
                     android:textSize="22dp"
+                    android:textColor="@color/black"
+                    android:backgroundTint="@color/white"
                     android:textStyle="bold" />
 
             </LinearLayout>
@@ -323,6 +345,8 @@
                     android:layout_gravity="center_horizontal"
                     android:text="Resistance Convertor\n"
                     android:textAlignment="center"
+                    android:textColor="@color/black"
+                    android:backgroundTint="@color/white"
                     android:textSize="22dp"
                     android:textStyle="bold" />
 
@@ -345,6 +369,8 @@
                     android:layout_gravity="center_horizontal"
                     android:text="Resolution Convertor\n1080*720"
                     android:textAlignment="center"
+                    android:textColor="@color/black"
+                    android:backgroundTint="@color/white"
                     android:textSize="22dp"
                     android:textStyle="bold" />
 
@@ -368,6 +394,8 @@
                     android:layout_gravity="center_horizontal"
                     android:text="Inertia Convertor\n"
                     android:textAlignment="center"
+                    android:textColor="@color/black"
+                    android:backgroundTint="@color/white"
                     android:textSize="22dp"
                     android:textStyle="bold" />
 
@@ -390,6 +418,8 @@
                     android:layout_gravity="center_horizontal"
                     android:text="Permeability Convertor\n"
                     android:textAlignment="center"
+                    android:textColor="@color/black"
+                    android:backgroundTint="@color/white"
                     android:textSize="22dp"
                     android:textStyle="bold" />
 
@@ -413,6 +443,8 @@
                     android:layout_gravity="center_horizontal"
                     android:text="Heat Density Convertor\n"
                     android:textAlignment="center"
+                    android:textColor="@color/black"
+                    android:backgroundTint="@color/white"
                     android:textSize="22dp"
                     android:textStyle="bold" />
 
@@ -436,6 +468,8 @@
                     android:layout_gravity="center_horizontal"
                     android:text="Frequency Convertor\n"
                     android:textAlignment="center"
+                    android:textColor="@color/black"
+                    android:backgroundTint="@color/white"
                     android:textSize="22dp"
                     android:textStyle="bold" />
 

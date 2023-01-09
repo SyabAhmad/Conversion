@@ -3,7 +3,8 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
-        <entry key="..\:/AndroidDevelopment/UnitConversion/app/src/main/res/layout/activity_main.xml" value="0.22" />
+        <entry key="..\:/AndroidDevelopment/UnitConversion/app/src/main/res/layout-v21/temperaturepanel.xml" value="0.209375" />
+        <entry key="..\:/AndroidDevelopment/UnitConversion/app/src/main/res/layout/activity_main.xml" value="0.25" />
         <entry key="..\:/AndroidDevelopment/UnitConversion/app/src/main/res/layout/feettometers.xml" value="0.14732547597461468" />
         <entry key="..\:/AndroidDevelopment/UnitConversion/app/src/main/res/layout/inchestomm.xml" value="0.13855421686746988" />
         <entry key="..\:/AndroidDevelopment/UnitConversion/app/src/main/res/layout/kmtomiles.xml" value="0.14732547597461468" />
@@ -11,7 +12,9 @@
         <entry key="..\:/AndroidDevelopment/UnitConversion/app/src/main/res/layout/metertofeet.xml" value="0.1" />
         <entry key="..\:/AndroidDevelopment/UnitConversion/app/src/main/res/layout/milestokm.xml" value="0.14732547597461468" />
         <entry key="..\:/AndroidDevelopment/UnitConversion/app/src/main/res/layout/mmtoinches.xml" value="0.1" />
+        <entry key="..\:/AndroidDevelopment/UnitConversion/app/src/main/res/layout/moreconversions.xml" value="0.18" />
         <entry key="..\:/AndroidDevelopment/UnitConversion/app/src/main/res/layout/moreconvertsions.xml" value="0.18" />
+        <entry key="..\:/AndroidDevelopment/UnitConversion/app/src/main/res/layout/temperaturepanel.xml" value="0.2" />
         <entry key="..\:/AndroidDevelopment/UnitConversion/app/src/main/res/layout/timemonthtoweek.xml" value="0.17101325352714836" />
         <entry key="..\:/AndroidDevelopment/UnitConversion/app/src/main/res/layout/timeweekstodays.xml" value="0.1718683197947841" />
         <entry key="..\:/AndroidDevelopment/UnitConversion/app/src/main/res/layout/timeyearstomonths.xml" value="0.1718683197947841" />
