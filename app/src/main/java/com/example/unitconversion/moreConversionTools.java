@@ -5,6 +5,7 @@ import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
 import android.widget.EditText;
+import android.widget.ImageButton;
 import android.widget.TextView;
 import android.widget.Toast;
 
@@ -14,6 +15,18 @@ public class moreConversionTools extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState){
         super.onCreate(savedInstanceState);
         setContentView(R.layout.moreconversions);
+
+
+        ImageButton backmain = (ImageButton) findViewById(R.id.backToMainManu);
+        backmain.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Toast.makeText(getApplicationContext(), "Back", Toast.LENGTH_SHORT).show();
+                Intent intent= new Intent(moreConversionTools.this, MainActivity.class);
+                startActivity(intent);
+            }
+        });
+
 
         Button temperatureButton = (Button) findViewById(R.id.temperatureButtonfinder);
         temperatureButton.setOnClickListener(new View.OnClickListener() {

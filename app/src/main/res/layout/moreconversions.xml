@@ -16,9 +16,15 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent">
 
+        <ImageButton
+            android:id="@+id/backToMainManu"
+            android:layout_width="112dp"
+            android:layout_height="match_parent"
+            android:src="@drawable/ic_baseline_arrow_back_24"/>
+
         <TextView
             android:id="@+id/textView2"
-            android:layout_width="match_parent"
+            android:layout_width="266dp"
             android:layout_height="wrap_content"
             android:layout_marginStart="20dp"
             android:layout_marginLeft="20dp"
@@ -64,8 +70,8 @@
                 >
 
                 <ImageButton
-                    android:layout_width="104dp"
-                    android:layout_height="88dp"
+                    android:layout_width="199dp"
+                    android:layout_height="match_parent"
                     android:src="@drawable/lenicon" />
 
                 <Button
@@ -113,8 +119,8 @@
                 android:orientation="horizontal">
 
                 <ImageButton
-                    android:layout_width="104dp"
-                    android:layout_height="88dp"
+                    android:layout_width="199dp"
+                    android:layout_height="match_parent"
                     android:src="@drawable/lenicon" />
 
                 <Button
@@ -124,7 +130,7 @@
                     android:textColor="@color/black"
                     android:backgroundTint="@color/white"
                     android:layout_gravity="center_horizontal"
-                    android:text="computerConversion Binary to decimal etc"
+                    android:text="computer Conversion"
                     android:textAlignment="center"
                     android:textSize="22dp"
                     android:textStyle="bold" />
@@ -137,8 +143,8 @@
                 android:orientation="horizontal">
 
                 <ImageButton
-                    android:layout_width="104dp"
-                    android:layout_height="88dp"
+                    android:layout_width="99dp"
+                    android:layout_height="match_parent"
                     android:src="@drawable/lenicon" />
 
                 <Button
@@ -162,8 +168,8 @@
                 android:orientation="horizontal">
 
                 <ImageButton
-                    android:layout_width="104dp"
-                    android:layout_height="88dp"
+                    android:layout_width="214dp"
+                    android:layout_height="match_parent"
                     android:src="@drawable/lenicon" />
 
                 <Button
@@ -212,8 +218,8 @@
                 android:orientation="horizontal">
 
                 <ImageButton
-                    android:layout_width="104dp"
-                    android:layout_height="88dp"
+                    android:layout_width="212dp"
+                    android:layout_height="match_parent"
                     android:src="@drawable/lenicon" />
 
                 <Button
@@ -221,7 +227,7 @@
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:layout_gravity="center_horizontal"
-                    android:text="Fuil Convertor\n mile/gallon"
+                    android:text="Fuel Convertor"
                     android:textAlignment="center"
                     android:textColor="@color/black"
                     android:backgroundTint="@color/white"
@@ -262,7 +268,7 @@
                 android:orientation="horizontal">
 
                 <ImageButton
-                    android:layout_width="104dp"
+                    android:layout_width="207dp"
                     android:layout_height="88dp"
                     android:src="@drawable/lenicon" />
 
@@ -310,7 +316,7 @@
                 android:orientation="horizontal">
 
                 <ImageButton
-                    android:layout_width="104dp"
+                    android:layout_width="203dp"
                     android:layout_height="88dp"
                     android:src="@drawable/lenicon" />
 
@@ -358,7 +364,7 @@
                 android:orientation="horizontal">
 
                 <ImageButton
-                    android:layout_width="104dp"
+                    android:layout_width="197dp"
                     android:layout_height="88dp"
                     android:src="@drawable/lenicon" />
 
@@ -367,7 +373,7 @@
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:layout_gravity="center_horizontal"
-                    android:text="Resolution Convertor\n1080*720"
+                    android:text="Resolution Convertor"
                     android:textAlignment="center"
                     android:textColor="@color/black"
                     android:backgroundTint="@color/white"
@@ -407,7 +413,7 @@
                 android:orientation="horizontal">
 
                 <ImageButton
-                    android:layout_width="104dp"
+                    android:layout_width="199dp"
                     android:layout_height="88dp"
                     android:src="@drawable/lenicon" />
 
@@ -457,7 +463,7 @@
                 android:orientation="horizontal">
 
                 <ImageButton
-                    android:layout_width="104dp"
+                    android:layout_width="201dp"
                     android:layout_height="88dp"
                     android:src="@drawable/lenicon" />
 

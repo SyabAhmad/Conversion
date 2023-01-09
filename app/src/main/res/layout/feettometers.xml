@@ -81,5 +81,15 @@
         app:layout_constraintTop_toBottomOf="@+id/textView"
         app:layout_constraintVertical_bias="0.435" />
 
+    <ImageButton
+        android:id="@+id/backToMainManu"
+        android:layout_width="393dp"
+        android:layout_height="66dp"
+        android:layout_marginTop="40dp"
+        android:src="@drawable/ic_baseline_arrow_back_24"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/findfeetToMeters" />
+
 
 </androidx.constraintlayout.widget.ConstraintLayout>

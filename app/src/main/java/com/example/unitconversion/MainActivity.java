@@ -9,6 +9,7 @@ import android.view.View;
 import android.widget.Button;
 import android.widget.EditText;
 import android.widget.ImageButton;
+import android.widget.TableLayout;
 import android.widget.TextView;
 import android.widget.Toast;
 
@@ -18,6 +19,38 @@ public class MainActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
+
+
+        ImageButton home = (ImageButton) findViewById(R.id.homeButton);
+        home.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Toast.makeText(getApplicationContext(), "Home", Toast.LENGTH_SHORT).show();
+                Intent intent = new Intent(MainActivity.this, MainActivity.class);
+                startActivity(intent);
+            }
+        });
+
+        ImageButton about = (ImageButton) findViewById(R.id.aboutButton);
+        about.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Toast.makeText(getApplicationContext(),"About Me Will Be Added\nIn Sha Allah", Toast.LENGTH_SHORT).show();
+//                Intent intent = new Intent(MainActivity.this, aboutMe.class);
+//                startActivity(intent);
+
+            }
+        });
+
+        ImageButton setting = (ImageButton) findViewById(R.id.settingButton);
+        setting.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Toast.makeText(getApplicationContext(),"Setting will be Added\n In Sha Allah", Toast.LENGTH_SHORT).show();
+//                Intent intent = new Intent(MainActivity.this, aboutMe.class);
+//                startActivity(intent);
+            }
+        });
 
 
         ImageButton lengthButton1 = (ImageButton) findViewById(R.id.inchToMm);

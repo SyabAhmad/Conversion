@@ -30,9 +30,6 @@
         <activity android:name="com.example.unitconversion.metersToYards" android:exported="true"> </activity>
         <activity android:name="com.example.unitconversion.milesToKm" android:exported="true"> </activity>
         <activity android:name="com.example.unitconversion.kmToMiles" android:exported="true"> </activity>
-        <activity android:name="com.example.unitconversion.yearsToMonth" android:exported="true"> </activity>
-        <activity android:name="com.example.unitconversion.monthsToWeeks" android:exported="true"> </activity>
-        <activity android:name="com.example.unitconversion.weeksToDays" android:exported="true" > </activity>
         <activity android:name="com.example.unitconversion.moreConversionTools" android:exported="true"> </activity>
         <activity android:name="com.example.unitconversion.temperaturePanel" android:exported="true"> </activity>
     </application>

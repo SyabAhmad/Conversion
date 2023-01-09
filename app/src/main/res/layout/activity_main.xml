@@ -8,34 +8,74 @@
     tools:actionBarNavMode="tabs"
     tools:context=".MainActivity">
 
-    <TextView
-        android:id="@+id/textView"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_marginStart="20dp"
-        android:layout_marginLeft="20dp"
-        android:layout_marginTop="20dp"
-        android:layout_marginEnd="20dp"
-        android:layout_marginRight="20dp"
-        android:gravity="center_horizontal"
-        android:text="@string/conversion_make_simple"
-        android:textAlignment="center"
-        android:textColor="@color/black"
-        android:textSize="22sp"
-        android:textStyle="bold"
-        app:layout_constraintBottom_toBottomOf="parent"
+
+    <ImageButton
+        android:id="@+id/settingButton"
+        android:layout_width="88dp"
+        android:layout_height="68dp"
+        android:layout_marginTop="4dp"
+        android:contentDescription="TODO"
+        android:src="@drawable/settingicon"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintHorizontal_bias="0.049"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.0" />
+        tools:ignore="SpeakableTextPresentCheck,DuplicateSpeakableTextCheck" />
 
+
+    <!--    //<TextView-->
+<!--        android:id="@+id/textView"-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:layout_marginStart="20dp"-->
+<!--        android:layout_marginLeft="20dp"-->
+<!--        android:layout_marginTop="20dp"-->
+<!--        android:layout_marginEnd="20dp"-->
+<!--        android:layout_marginRight="20dp"-->
+<!--        android:gravity="center_horizontal"-->
+<!--        android:text="@string/conversion_make_simple"-->
+<!--        android:textAlignment="center"-->
+<!--        android:textColor="@color/black"-->
+<!--        android:textSize="22sp"-->
+<!--        android:textStyle="bold"-->
+<!--        app:layout_constraintBottom_toBottomOf="parent"-->
+<!--        app:layout_constraintEnd_toEndOf="parent"-->
+<!--        app:layout_constraintHorizontal_bias="0.0"-->
+<!--        app:layout_constraintStart_toStartOf="parent"-->
+<!--        app:layout_constraintTop_toTopOf="parent"-->
+<!--        app:layout_constraintVertical_bias="0.03" />//-->
+
+    <ImageButton
+        android:id="@+id/homeButton"
+        android:layout_width="88dp"
+        android:layout_height="69dp"
+        android:layout_marginTop="4dp"
+        android:layout_marginEnd="80dp"
+        android:layout_marginRight="80dp"
+        android:src="@drawable/homicon"
+        app:layout_constraintEnd_toStartOf="@+id/aboutButton"
+        app:layout_constraintHorizontal_bias="0.259"
+        app:layout_constraintStart_toEndOf="@+id/imageButton2"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="SpeakableTextPresentCheck,ImageContrastCheck" />
+
+    <ImageButton
+        android:id="@+id/aboutButton"
+        android:layout_width="82dp"
+        android:layout_height="72dp"
+        android:layout_marginTop="4dp"
+        android:src="@drawable/abouticon"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.794"
+        app:layout_constraintStart_toEndOf="@+id/imageButton"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="SpeakableTextPresentCheck,ImageContrastCheck" />
 
     <LinearLayout
         android:id="@+id/linearLayout3"
         android:layout_width="399dp"
-        android:layout_height="501dp"
-        android:layout_marginBottom="340dp"
+        android:layout_height="507dp"
+        android:layout_marginBottom="300dp"
         android:orientation="vertical"
         android:padding="20dp"
         app:layout_constraintBottom_toBottomOf="parent"
@@ -189,8 +229,8 @@
 
     <LinearLayout
         android:id="@+id/linearLayout5"
-        android:layout_width="397dp"
-        android:layout_height="72dp"
+        android:layout_width="407dp"
+        android:layout_height="47dp"
         android:orientation="vertical"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
@@ -207,7 +247,7 @@
             android:backgroundTint="@color/white"
             android:text="Show More Tools"
             android:textColor="@color/black"
-            android:textSize="32dp" />
+            android:textSize="24dp" />
 
 
     </LinearLayout>
