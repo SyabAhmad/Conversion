@@ -33,11 +33,12 @@
         android:id="@+id/linearLayout3"
         android:layout_width="419dp"
         android:layout_height="372dp"
-        android:layout_marginBottom="308dp"
+        android:layout_marginBottom="416dp"
         android:orientation="vertical"
         android:padding="20dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="@+id/textView"
+        app:layout_constraintHorizontal_bias="0.416"
         app:layout_constraintStart_toStartOf="@+id/textView">
 
         <TextView
@@ -48,7 +49,6 @@
             android:textAlignment="center"
             android:textSize="24sp"
             android:textStyle="bold" />
-
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="292dp"
@@ -74,7 +74,7 @@
                     android:focusable="true"
                     android:paddingStart="10dp"
                     android:paddingLeft="20dp"
-                    android:src="@drawable/lenicon"
+                    android:src="@drawable/inchestometemm1"
                     tools:ignore="DuplicateSpeakableTextCheck,RtlSymmetry" />
 
                 <ImageButton
@@ -84,7 +84,7 @@
                     android:contentDescription="@string/todo"
                     android:padding="10dp"
 
-                    android:src="@drawable/lenicon" />
+                    android:src="@drawable/mmtoinches1" />
 
                 <ImageButton
                     android:id="@+id/feetToMeters"
@@ -92,7 +92,7 @@
                     android:layout_height="93dp"
                     android:contentDescription="@string/todo"
                     android:padding="10dp"
-                    android:src="@drawable/lenicon" />
+                    android:src="@drawable/feettometer" />
 
 
             </LinearLayout>
@@ -111,7 +111,7 @@
                     android:focusable="true"
                     android:paddingStart="10dp"
                     android:paddingLeft="10dp"
-                    android:src="@drawable/lenicon"
+                    android:src="@drawable/metertofeet1"
                     tools:ignore="DuplicateSpeakableTextCheck,RtlSymmetry" />
 
                 <ImageButton
@@ -121,7 +121,7 @@
                     android:contentDescription="@string/todo"
                     android:padding="10dp"
 
-                    android:src="@drawable/lenicon" />
+                    android:src="@drawable/yardstometer1" />
 
                 <ImageButton
                     android:id="@+id/metersToYards"
@@ -129,7 +129,7 @@
                     android:layout_height="93dp"
                     android:contentDescription="@string/todo"
                     android:padding="10dp"
-                    android:src="@drawable/lenicon" />
+                    android:src="@drawable/metertoyards1" />
 
 
             </LinearLayout>
@@ -148,7 +148,7 @@
                     android:focusable="true"
                     android:paddingStart="10dp"
                     android:paddingLeft="10dp"
-                    android:src="@drawable/lenicon"
+                    android:src="@drawable/milestokm1"
                     tools:ignore="DuplicateSpeakableTextCheck,RtlSymmetry" />
 
                 <ImageButton
@@ -158,9 +158,7 @@
                     android:contentDescription="@string/todo"
                     android:padding="10dp"
 
-                    android:src="@drawable/lenicon" />
-
-
+                    android:src="@drawable/kmtomiles1" />
 
 
             </LinearLayout>

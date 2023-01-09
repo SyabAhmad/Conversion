@@ -4,13 +4,14 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".inchesToMm">
+    tools:context=".monthsToWeeks">
+
     <TextView
         android:id="@+id/textView"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:gravity="center_horizontal"
-        android:text="@string/conversion_of_inches_to_mm"
+        android:text="Conversion of Months To Week"
         android:textAlignment="center"
         android:textColor="@color/black"
         android:textSize="22sp"
@@ -23,7 +24,7 @@
         app:layout_constraintVertical_bias="0.077" />
 
     <EditText
-        android:id="@+id/inchesValue"
+        android:id="@+id/monthsValue"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginStart="20dp"
@@ -31,39 +32,38 @@
         android:layout_marginTop="156dp"
         android:layout_marginEnd="20dp"
         android:layout_marginRight="20dp"
+        android:hint="@string/_12"
         android:textAlignment="center"
         android:gravity="center_horizontal"
-        android:hint="@string/_12"
+        android:importantForAutofill="no"
         android:inputType="numberDecimal"
+        android:minHeight="48dp"
         app:layout_constraintBottom_toTopOf="@+id/findInchesToMm"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/textView"
         app:layout_constraintVertical_bias="0.0"
-        android:importantForAutofill="no"
         tools:ignore="TextFields" />
 
     <TextView
-        android:id="@+id/resultInchesToMm"
+        android:id="@+id/resultMonthsToWeek"
         android:layout_width="399dp"
         android:layout_height="80dp"
-        android:textSize="30sp"
-        android:layout_marginStart="20dp"
-        android:layout_marginLeft="20dp"
         android:layout_marginEnd="20dp"
         android:layout_marginRight="20dp"
-        android:layout_marginBottom="64dp"
         android:gravity="center_horizontal"
         android:textAlignment="center"
+        android:textSize="30sp"
         android:textStyle="bold"
-        app:layout_constraintBottom_toTopOf="@+id/findInchesToMm"
+        app:layout_constraintBottom_toTopOf="@+id/findMonthsToWeeks"
         app:layout_constraintEnd_toEndOf="@+id/editText"
-        app:layout_constraintStart_toStartOf="@+id/editText"
+        app:layout_constraintStart_toStartOf="@+id/monthsValue"
+        app:layout_constraintTop_toBottomOf="@+id/monthsValue"
         tools:ignore="UnknownId,UnknownIdInLayout" />
 
     <Button
-        android:id="@+id/findInchesToMm"
+        android:id="@+id/findMonthsToWeeks"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginStart="20dp"
@@ -73,10 +73,10 @@
         android:text="@string/show"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintHorizontal_bias="1.0"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/textView"
-        app:layout_constraintVertical_bias="0.48" />
+        app:layout_constraintVertical_bias="0.435" />
 
 
 </androidx.constraintlayout.widget.ConstraintLayout>

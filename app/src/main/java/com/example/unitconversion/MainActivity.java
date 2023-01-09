@@ -122,7 +122,9 @@ public class MainActivity extends AppCompatActivity {
         timeButton1.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Toast.makeText(getApplicationContext(), " Coming SOon", Toast.LENGTH_SHORT).show();
+                Toast.makeText(getApplicationContext(), " Recently added", Toast.LENGTH_SHORT).show();
+                Intent intent = new Intent(MainActivity.this, yearsToMonth.class);
+                startActivity(intent);
             }
         });
 
@@ -133,6 +135,8 @@ public class MainActivity extends AppCompatActivity {
             @Override
             public void onClick(View v) {
                 Toast.makeText(getApplicationContext(), " Coming SOon", Toast.LENGTH_SHORT).show();
+                Intent intent = new Intent(MainActivity.this, monthsToWeeks.class);
+                startActivity(intent);
             }
         });
 
@@ -143,6 +147,8 @@ public class MainActivity extends AppCompatActivity {
             @Override
             public void onClick(View v) {
                 Toast.makeText(getApplicationContext(), " Coming SOon", Toast.LENGTH_SHORT).show();
+                Intent intent = new Intent(MainActivity.this, weeksToDays.class);
+                startActivity(intent);
             }
         });
 

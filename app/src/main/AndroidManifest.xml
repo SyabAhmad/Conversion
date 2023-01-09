@@ -22,14 +22,17 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name="com.example.unitconversion.inchesToMm"> </activity>
-        <activity android:name="com.example.unitconversion.mmToInches"> </activity>
-        <activity android:name="com.example.unitconversion.feetToMeters"> </activity>
-        <activity android:name="com.example.unitconversion.meterToFeets"> </activity>
-        <activity android:name="com.example.unitconversion.yardsToMeter"> </activity>
-        <activity android:name="com.example.unitconversion.metersToYards"> </activity>
-        <activity android:name="com.example.unitconversion.milesToKm"> </activity>
-        <activity android:name="com.example.unitconversion.kmToMiles"> </activity>
+        <activity android:name="com.example.unitconversion.inchesToMm" android:exported="true"> </activity>
+        <activity android:name="com.example.unitconversion.mmToInches" android:exported="true"> </activity>
+        <activity android:name="com.example.unitconversion.feetToMeters" android:exported="true"> </activity>
+        <activity android:name="com.example.unitconversion.meterToFeets" android:exported="true"> </activity>
+        <activity android:name="com.example.unitconversion.yardsToMeter" android:exported="true"> </activity>
+        <activity android:name="com.example.unitconversion.metersToYards" android:exported="true"> </activity>
+        <activity android:name="com.example.unitconversion.milesToKm" android:exported="true"> </activity>
+        <activity android:name="com.example.unitconversion.kmToMiles" android:exported="true"> </activity>
+        <activity android:name="com.example.unitconversion.yearsToMonth" android:exported="true"> </activity>
+        <activity android:name="com.example.unitconversion.monthsToWeeks" android:exported="true"> </activity>
+        <activity android:name="com.example.unitconversion.weeksToDays" android:exported="true" > </activity>
     </application>
 
 </manifest>
