@@ -19,4 +19,14 @@
     <string name="developed_by_syab_ahamd_n_support_us_by_sharing_this_application">Developed By: Syab Ahamd\n Support us By Sharing this Application</string>
     <string name="clear_all">Clear All</string>
     <string name="f_value">F Value</string>
+    <string name="mass_conversion">Mass Conversion</string>
+    <string name="gram_to_ounces">gram to ounces</string>
+    <string name="metric_tons_to_tons">Metric tons to tons</string>
+    <string name="tons_to_metric_tons">Tons to metric tons</string>
+    <string name="back">Back</string>
+    <string name="gram_to_centigram">gram to centigram</string>
+    <string name="ounces_to_gram">Ounces to gram</string>
+    <string name="centigram_to_gram">Centigram to gram</string>
+    <string name="pounds_to_kilogram">Pounds to kilogram</string>
+    <string name="kilograms_to_pounds">Kilograms to pounds</string>
 </resources>

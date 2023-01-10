@@ -32,6 +32,9 @@
         <activity android:name="com.example.unitconversion.kmToMiles" android:exported="true"> </activity>
         <activity android:name="com.example.unitconversion.moreConversionTools" android:exported="true"> </activity>
         <activity android:name="com.example.unitconversion.temperaturePanel" android:exported="true"> </activity>
+        <activity android:name="com.example.unitconversion.massConvertor" android:exported="true" > </activity>
+
+
     </application>
 
 </manifest>

@@ -42,7 +42,10 @@ public class moreConversionTools extends AppCompatActivity {
         weightButton.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Toast.makeText(getApplicationContext(), "Coming SOon", Toast.LENGTH_SHORT).show();
+                Toast.makeText(getApplicationContext(), "Mass Finder", Toast.LENGTH_SHORT).show();
+                Intent intent = new Intent(moreConversionTools.this, massConvertor.class);
+                startActivity(intent);
+
             }
         });
 

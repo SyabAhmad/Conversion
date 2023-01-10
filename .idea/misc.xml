@@ -5,9 +5,11 @@
       <map>
         <entry key="..\:/AndroidDevelopment/UnitConversion/app/src/main/res/layout-v21/temperaturepanel.xml" value="0.209375" />
         <entry key="..\:/AndroidDevelopment/UnitConversion/app/src/main/res/layout/activity_main.xml" value="0.22" />
+        <entry key="..\:/AndroidDevelopment/UnitConversion/app/src/main/res/layout/computerconversion.xml" value="0.17101325352714836" />
         <entry key="..\:/AndroidDevelopment/UnitConversion/app/src/main/res/layout/feettometers.xml" value="0.14732547597461468" />
         <entry key="..\:/AndroidDevelopment/UnitConversion/app/src/main/res/layout/inchestomm.xml" value="0.13855421686746988" />
         <entry key="..\:/AndroidDevelopment/UnitConversion/app/src/main/res/layout/kmtomiles.xml" value="0.14732547597461468" />
+        <entry key="..\:/AndroidDevelopment/UnitConversion/app/src/main/res/layout/massconvertor.xml" value="0.1" />
         <entry key="..\:/AndroidDevelopment/UnitConversion/app/src/main/res/layout/meterstoyard.xml" value="0.1718683197947841" />
         <entry key="..\:/AndroidDevelopment/UnitConversion/app/src/main/res/layout/metertofeet.xml" value="0.15" />
         <entry key="..\:/AndroidDevelopment/UnitConversion/app/src/main/res/layout/milestokm.xml" value="0.14732547597461468" />
@@ -19,6 +21,7 @@
         <entry key="..\:/AndroidDevelopment/UnitConversion/app/src/main/res/layout/timeweekstodays.xml" value="0.1718683197947841" />
         <entry key="..\:/AndroidDevelopment/UnitConversion/app/src/main/res/layout/timeyearstomonths.xml" value="0.1718683197947841" />
         <entry key="..\:/AndroidDevelopment/UnitConversion/app/src/main/res/layout/yardstometer.xml" value="0.22" />
+        <entry key="..\:/AndroidDevelopment/UnitConversion/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" value="0.109" />
       </map>
     </option>
   </component>
@@ -27,5 +30,12 @@
   </component>
   <component name="ProjectType">
     <option name="id" value="Android" />
+  </component>
+  <component name="VisualizationToolProject">
+    <option name="state">
+      <ProjectState>
+        <option name="scale" value="0.33" />
+      </ProjectState>
+    </option>
   </component>
 </project>
