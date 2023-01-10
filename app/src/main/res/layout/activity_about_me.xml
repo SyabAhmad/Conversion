@@ -1,0 +1,357 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".AboutMe">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:layout_editor_absoluteY="67dp">
+
+
+        <LinearLayout
+            android:layout_width="402dp"
+            android:layout_height="105dp"
+            android:layout_marginTop="32dp"
+            android:orientation="vertical"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent">
+
+            <TextView
+                android:id="@+id/textView4"
+                android:layout_width="match_parent"
+                android:layout_height="94dp"
+                android:layout_gravity="center"
+                android:paddingTop="20dp"
+                android:text="Syed Syab Ahmad"
+                android:textAlignment="center"
+                android:textSize="32sp" />
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:src="@drawable/aboutme" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingStart="20dp"
+                android:text="Assalam-o-Alaikum Friends, This is Syab Ahmad, the Developer and CEO of Sadaat AI Company which does not exist at this time\nI am Currently studying Software Engineering at University of Swat. for any queries you can contact me through Email Address and WhatsApp Number.\n\n sadaat@gmail.com\n ph# +922460561173\n\nThank You very much guys for using our technology, if you like this software, please share with your beloved ones also \n\nRegards: SEO Syab Ahmad"
+                android:textColor="@color/black"
+                android:textSize="18dp"
+                android:paddingBottom="50dp"
+                android:paddingTop="50dp"/>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textSize="22sp"
+                    android:paddingStart="20dp"
+                    android:paddingTop="40dp"
+                    android:paddingBottom="40dp"
+                    android:textAlignment="center"
+                    android:textColor="@color/orange"
+                    android:text="My Experience and Fields "/>
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:orientation="horizontal">
+
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_gravity="center"
+                    android:paddingStart="80dp"
+                    android:paddingLeft="20dp"
+                    android:paddingEnd="80dp"
+                    android:paddingRight="0dp"
+                    android:text="Skills"
+                    android:textColor="@color/red"
+                    android:textSize="28dp" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_gravity="center"
+                    android:paddingStart="10dp"
+                    android:paddingLeft="20dp"
+                    android:paddingRight="0dp"
+                    android:text="Experience"
+                    android:textColor="@color/blue"
+                    android:textSize="28dp" />
+
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="243dp"
+                android:orientation="horizontal">
+
+                <LinearLayout
+                    android:layout_width="207dp"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:layout_width="94dp"
+                        android:layout_height="76dp"
+                        android:layout_gravity="center"
+                        android:paddingStart="10dp"
+                        android:paddingLeft="10dp"
+                        android:paddingTop="30sp"
+                        android:text="Java"
+                        android:textAlignment="center"
+                        android:textColor="@color/black"
+                        android:textSize="24sp" />
+
+                    <TextView
+                        android:layout_width="95dp"
+                        android:layout_height="75dp"
+                        android:layout_gravity="center"
+                        android:paddingStart="30dp"
+                        android:paddingLeft="30dp"
+                        android:paddingTop="30sp"
+                        android:text="PHP"
+                        android:textAlignment="center"
+                        android:textColor="@color/black"
+                        android:textSize="24sp" />
+
+                    <TextView
+                        android:layout_width="97dp"
+                        android:layout_height="86dp"
+                        android:layout_gravity="center"
+                        android:paddingStart="30dp"
+                        android:paddingLeft="30dp"
+                        android:paddingTop="30sp"
+                        android:text="C++"
+                        android:textAlignment="center"
+                        android:textColor="@color/black"
+                        android:textSize="24sp" />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="75dp"
+                        android:layout_gravity="center"
+                        android:paddingStart="30dp"
+                        android:paddingLeft="30dp"
+                        android:paddingTop="30sp"
+                        android:text="3 years"
+                        android:textAlignment="center"
+                        android:textColor="@color/black"
+                        android:textSize="24sp"
+                        tools:ignore="RtlSymmetry" />
+
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="79dp"
+                        android:layout_gravity="center"
+                        android:paddingStart="30dp"
+                        android:paddingLeft="30dp"
+                        android:paddingTop="30sp"
+                        android:text="1 years"
+                        android:textAlignment="center"
+                        android:textColor="@color/black"
+                        android:textSize="26sp"
+                        tools:ignore="RtlSymmetry" />
+
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="82dp"
+                        android:layout_gravity="center"
+                        android:paddingStart="30dp"
+                        android:paddingLeft="30dp"
+                        android:paddingTop="30sp"
+                        android:text="2 years"
+                        android:textAlignment="center"
+                        android:textColor="@color/black"
+                        android:textSize="26sp"
+                        tools:ignore="RtlSymmetry" />
+
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textSize="22sp"
+                    android:paddingStart="20dp"
+                    android:paddingTop="40dp"
+                    android:paddingBottom="40dp"
+                    android:textAlignment="center"
+                    android:textColor="@color/blue"
+                    android:text="You can Connect with me through the following Links"/>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                >
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Name"
+                    android:textSize="28sp"
+                    android:textColor="@color/blue"
+                    android:paddingStart="80dp"
+                    android:paddingEnd="30dp"
+                    />
+
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Link"
+                    android:textColor="@color/red"
+                    android:textSize="28sp"
+                    android:paddingStart="80dp"
+                    android:paddingEnd="30dp"
+                    />
+
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal">
+
+
+                <LinearLayout
+                    android:layout_width="192dp"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="49dp"
+                        android:paddingStart="40dp"
+                        android:paddingEnd="30dp"
+                        android:text="Github"
+                        android:textSize="22sp" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="53dp"
+                        android:paddingStart="40dp"
+                        android:paddingEnd="30dp"
+                        android:text="LinkedIn"
+                        android:textSize="22sp" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="82dp"
+                        android:paddingStart="40dp"
+                        android:paddingEnd="30dp"
+                        android:text="Stack Overflow"
+                        android:textSize="22sp" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="48dp"
+                        android:paddingStart="40dp"
+                        android:paddingEnd="30dp"
+                        android:text="Twitter"
+                        android:textSize="22sp" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="78dp"
+                        android:paddingStart="40dp"
+                        android:paddingEnd="30dp"
+                        android:text="YouTube"
+                        android:textSize="22sp" />
+
+                </LinearLayout>
+
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical"
+                    >
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="github.com/SyabAhmad"
+                        android:textSize="20sp"
+                        android:paddingStart="40dp"
+                        android:paddingEnd="30dp"
+                        />
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="syedsyabahmadshah"
+                        android:textSize="20sp"
+                        android:paddingStart="40dp"
+                        android:paddingEnd="30dp"
+                        />
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="stackoverflow.come/SyabAhmad"
+                        android:textSize="22sp"
+                        android:paddingStart="40dp"
+                        android:paddingEnd="30dp"
+                        />
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Twitter"
+                        android:textSize="22sp"
+                        android:paddingStart="40dp"
+                        android:paddingEnd="30dp"
+                        />
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Real Coder"
+                        android:textSize="22sp"
+                        android:paddingStart="40dp"
+                        android:paddingEnd="30dp"
+                        />
+
+                </LinearLayout>
+
+
+
+            </LinearLayout>
+
+
+        </LinearLayout>
+
+    </ScrollView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
