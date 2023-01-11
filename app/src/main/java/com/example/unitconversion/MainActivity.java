@@ -53,7 +53,7 @@ public class MainActivity extends AppCompatActivity {
         });
 
 
-        ImageButton lengthButton1 = (ImageButton) findViewById(R.id.inchToMm);
+        Button lengthButton1 = (Button) findViewById(R.id.inchToMm);
         lengthButton1.setOnClickListener(v -> {
             Toast.makeText(getApplicationContext(),"Great", Toast.LENGTH_LONG).show();
             Intent intent = new Intent(MainActivity.this, inchesToMm.class);
@@ -62,7 +62,7 @@ public class MainActivity extends AppCompatActivity {
 
 
 
-        ImageButton lengthButton2 = (ImageButton) findViewById(R.id.mmToInch);
+        Button lengthButton2 = (Button) findViewById(R.id.mmToInch);
         lengthButton2.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
@@ -74,7 +74,7 @@ public class MainActivity extends AppCompatActivity {
 
 
 
-        ImageButton lengthButton3 = (ImageButton)  findViewById(R.id.feetToMeters);
+        Button lengthButton3 = (Button)  findViewById(R.id.feetToMeters);
         lengthButton3.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
@@ -86,7 +86,7 @@ public class MainActivity extends AppCompatActivity {
 
 
 
-        ImageButton lengthButton4 = (ImageButton) findViewById(R.id.metersToFeeet);
+        Button lengthButton4 = (Button) findViewById(R.id.metersToFeeet);
         lengthButton4.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
@@ -97,7 +97,7 @@ public class MainActivity extends AppCompatActivity {
         });
 
 
-        ImageButton lengthButton5 = (ImageButton) findViewById(R.id.yardsToMeter);
+        Button lengthButton5 = (Button) findViewById(R.id.yardsToMeter);
         lengthButton5.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
@@ -112,7 +112,7 @@ public class MainActivity extends AppCompatActivity {
         });
 
 
-        ImageButton lengthButton6 = (ImageButton) findViewById(R.id.metersToYards);
+        Button lengthButton6 = (Button) findViewById(R.id.metersToYards);
         lengthButton6.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
@@ -126,7 +126,7 @@ public class MainActivity extends AppCompatActivity {
             }
         });
 
-        ImageButton lengthButton7 = (ImageButton) findViewById(R.id.milesToKm);
+        Button lengthButton7 = (Button) findViewById(R.id.milesToKm);
         lengthButton7.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
@@ -139,7 +139,7 @@ public class MainActivity extends AppCompatActivity {
             }
         });
 
-        ImageButton lengthButton8 = (ImageButton) findViewById(R.id.kmToMiles);
+        Button lengthButton8 = (Button) findViewById(R.id.kmToMiles);
         lengthButton8.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {

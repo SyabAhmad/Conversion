@@ -14,13 +14,15 @@
         app:layout_constraintBottom_toTopOf="@+id/scrollView2"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent">
+        app:layout_constraintTop_toTopOf="parent"
+        >
 
         <ImageButton
             android:id="@+id/backToMainManu"
             android:layout_width="112dp"
             android:layout_height="match_parent"
-            android:src="@drawable/ic_baseline_arrow_back_24"/>
+            android:src="@drawable/ic_baseline_arrow_back_24"
+            />
 
         <TextView
             android:id="@+id/textView2"
@@ -69,17 +71,17 @@
                 android:orientation="horizontal"
                 >
 
-                <ImageButton
-                    android:layout_width="96dp"
-                    android:layout_height="match_parent"
-                    android:src="@drawable/heaticon" />
+<!--                <ImageButton-->
+<!--                    android:layout_width="96dp"-->
+<!--                    android:layout_height="match_parent"-->
+<!--                    android:src="@drawable/heaticon" />-->
 
                 <Button
                     android:id="@+id/temperatureButtonfinder"
                     android:layout_width="match_parent"
                     android:layout_height="match_parent"
                     android:layout_gravity="center_horizontal"
-                    android:backgroundTint="@color/white"
+                    android:backgroundTint="@color/silver"
                     android:text="Temperature\n"
                     android:textAlignment="center"
                     android:textColor="@color/black"
@@ -94,17 +96,17 @@
                 android:layout_height="88dp"
                 android:orientation="horizontal">
 
-                <ImageButton
-                    android:layout_width="96dp"
-                    android:layout_height="74dp"
-                    android:src="@drawable/massicon" />
+<!--                <ImageButton-->
+<!--                    android:layout_width="96dp"-->
+<!--                    android:layout_height="74dp"-->
+<!--                    android:src="@drawable/massicon" />-->
 
                 <Button
                     android:id="@+id/weightButtonFinder"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:textColor="@color/black"
-                    android:backgroundTint="@color/white"
+                    android:backgroundTint="@color/silver"
                     android:layout_gravity="center_horizontal"
                     android:text="Mass\n"
                     android:textAlignment="center"
@@ -118,17 +120,17 @@
                 android:layout_height="88dp"
                 android:orientation="horizontal">
 
-                <ImageButton
-                    android:layout_width="99dp"
-                    android:layout_height="match_parent"
-                    android:src="@drawable/computericon" />
+<!--                <ImageButton-->
+<!--                    android:layout_width="99dp"-->
+<!--                    android:layout_height="match_parent"-->
+<!--                    android:src="@drawable/computericon" />-->
 
                 <Button
                     android:id="@+id/computerConversionButtenFinder"
-                    android:layout_width="306dp"
+                    android:layout_width="match_parent"
                     android:layout_height="88dp"
                     android:layout_gravity="center_horizontal"
-                    android:backgroundTint="@color/white"
+                    android:backgroundTint="@color/silver"
                     android:text="computer Conversion"
                     android:textAlignment="center"
                     android:textColor="@color/black"
@@ -145,17 +147,17 @@
                 android:layout_height="88dp"
                 android:orientation="horizontal">
 
-                <ImageButton
-                    android:layout_width="99dp"
-                    android:layout_height="match_parent"
-                    android:src="@drawable/speedicon" />
+<!--                <ImageButton-->
+<!--                    android:layout_width="99dp"-->
+<!--                    android:layout_height="match_parent"-->
+<!--                    android:src="@drawable/speedicon" />-->
 
                 <Button
                     android:id="@+id/speedButtonFinder"
                     android:layout_width="match_parent"
                     android:layout_height="88dp"
                     android:layout_gravity="center_horizontal"
-                    android:backgroundTint="@color/white"
+                    android:backgroundTint="@color/silver"
                     android:text="Speed Convertor\n"
                     android:textAlignment="center"
                     android:textColor="@color/black"

@@ -320,25 +320,161 @@
                 android:orientation="vertical">
 
                 <ImageView
-                        android:layout_width="wrap_content"
+                        android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:src="@drawable/img_8"/>
-                <ImageView
+                <TextView
                     android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:paddingTop="20dp"
+                    android:text="Login Form"
+                    android:paddingLeft="20dp"
+                    android:textColor="@color/dark_gray"
+                    android:paddingBottom="20dp"/>
+                <ImageView
+                    android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:src="@drawable/img_9"/>
-                <ImageView
+                <TextView
                     android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:paddingTop="20dp"
+                    android:text="SignUp Form"
+                    android:paddingLeft="20dp"
+                    android:textColor="@color/dark_gray"
+                    android:paddingBottom="20dp"/>
+                <ImageView
+                    android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:src="@drawable/img_10"/>
-                <ImageView
+                <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
+                    android:paddingTop="20dp"
+                    android:text="Creating Account"
+                    android:paddingLeft="20dp"
+                    android:textColor="@color/dark_gray"
+                    android:paddingBottom="20dp"/>
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
                     android:src="@drawable/img_11"/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:paddingTop="20dp"
+                    android:text="Menu Panel"
+                    android:paddingLeft="20dp"
+                    android:textColor="@color/dark_gray"
+                    android:paddingBottom="20dp"/>
+
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/img_12"/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:paddingTop="20dp"
+                    android:text="Customer can order."
+                    android:paddingLeft="20dp"
+                    android:textColor="@color/dark_gray"
+                    android:paddingBottom="20dp"/>
+
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/img_13"/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:paddingTop="20dp"
+                    android:text="Admin have Rights."
+                    android:paddingLeft="20dp"
+                    android:textColor="@color/dark_gray"
+                    android:paddingBottom="20dp"/>
+
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/img_14"/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:paddingTop="20dp"
+                    android:text="Displaying all items with prices."
+                    android:paddingLeft="20dp"
+                    android:textColor="@color/dark_gray"
+                    android:paddingBottom="20dp"/>
+
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/img_15"/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:paddingTop="20dp"
+                    android:text="Do you want home order?"
+                    android:paddingLeft="20dp"
+                    android:textColor="@color/dark_gray"
+                    android:paddingBottom="20dp"/>
 
 
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/img_16"/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:paddingTop="20dp"
+                    android:text="Search Engine."
+                    android:paddingLeft="20dp"
+                    android:textColor="@color/dark_gray"
+                    android:paddingBottom="20dp"/>
 
-            </LinearLayout>
+
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/img_17"/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:paddingTop="20dp"
+                    android:text="better then Google."
+                    android:paddingLeft="20dp"
+                    android:textColor="@color/dark_gray"
+                    android:paddingBottom="20dp"/>
+
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/img_18"/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:paddingTop="20dp"
+                    android:text="Do you tired of watching ads?"
+                    android:paddingLeft="20dp"
+                    android:textColor="@color/dark_gray"
+                    android:paddingBottom="20dp"/>
+
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/img_19"/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:paddingTop="20dp"
+                    android:text="Chick this out, Now."
+                    android:paddingLeft="20dp"
+                    android:textColor="@color/dark_gray"
+                    android:paddingBottom="20dp"/>
+
+
 
             </LinearLayout>
 
@@ -350,6 +486,10 @@
                 android:textAlignment="center"
                 android:textColor="@color/blue"
                 android:textSize="12sp" />
+
+            </LinearLayout>
+
+
 
 
 

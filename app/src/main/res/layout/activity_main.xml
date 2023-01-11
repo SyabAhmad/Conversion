@@ -71,185 +71,229 @@
         app:layout_constraintTop_toTopOf="parent"
         tools:ignore="SpeakableTextPresentCheck,ImageContrastCheck" />
 
-    <LinearLayout
-        android:id="@+id/linearLayout3"
-        android:layout_width="399dp"
-        android:layout_height="507dp"
-        android:layout_marginBottom="300dp"
-        android:orientation="vertical"
-        android:padding="20dp"
+    <ScrollView
+        android:layout_width="405dp"
+        android:layout_height="796dp"
         app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="@+id/textView"
-        app:layout_constraintHorizontal_bias="0.678"
-        app:layout_constraintStart_toStartOf="@+id/textView">
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/homeButton">
 
-        <TextView
-            android:layout_width="match_parent"
-            android:layout_height="50dp"
-            android:layout_gravity="center_horizontal"
-            android:text="Quick Tools You Should use"
-            android:textAlignment="center"
-            android:textSize="24sp"
-            android:textStyle="bold" />
 
-        <LinearLayout
-            android:layout_width="match_parent"
-            android:layout_height="422dp"
-            android:divider="@drawable/ic_launcher_background"
-            android:orientation="horizontal"
-            android:paddingStart="20dp"
-            android:paddingLeft="20dp"
-            tools:ignore="RtlSymmetry">
 
-            <LinearLayout
-                android:layout_width="97dp"
-                android:layout_height="match_parent"
-                android:orientation="vertical">
+    <LinearLayout
+                android:id="@+id/linearLayout3"
+                android:layout_width="399dp"
+                android:layout_height="507dp"
+                android:layout_marginBottom="300dp"
+                android:orientation="vertical"
+                android:padding="20dp"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="@+id/textView"
+                app:layout_constraintHorizontal_bias="0.678"
+                app:layout_constraintStart_toStartOf="@+id/textView">
 
-                <ImageButton
-                    android:id="@+id/inchToMm"
-                    android:layout_width="98dp"
-                    android:layout_height="126dp"
-                    android:clickable="true"
-                    android:contentDescription="@string/todo"
-                    android:focusable="true"
-                    android:paddingStart="10dp"
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp"
+                    android:layout_gravity="center_horizontal"
+                    android:text="Quick tools you should use"
+                    android:textAlignment="center"
+                    android:textSize="24sp"
+                    android:textStyle="bold" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="422dp"
+                    android:divider="@drawable/ic_launcher_background"
+                    android:orientation="horizontal"
+                    android:paddingStart="20dp"
                     android:paddingLeft="20dp"
-                    android:src="@drawable/inchestometemm1"
-                    tools:ignore="DuplicateSpeakableTextCheck,RtlSymmetry,ImageContrastCheck" />
+                    tools:ignore="RtlSymmetry">
 
-                <ImageButton
-                    android:id="@+id/mmToInch"
-                    android:layout_width="98dp"
-                    android:layout_height="142dp"
-                    android:contentDescription="@string/todo"
-                    android:padding="10dp"
+                    <LinearLayout
+                        android:layout_width="97dp"
+                        android:layout_height="match_parent"
+                        android:orientation="vertical">
 
-                    android:src="@drawable/mmtoinches1"
-                    tools:ignore="ImageContrastCheck" />
+                        <Button
+                            android:id="@+id/inchToMm"
+                            android:text="inches\n -\n MM"
+                            android:layout_width="98dp"
+                            android:backgroundTint="@color/gray"
+                            android:layout_height="126dp"
+                            android:clickable="true"
+                            android:contentDescription="@string/todo"
+                            android:focusable="true"
+                            android:paddingStart="10dp"
+                            android:paddingLeft="20dp"
+                            android:src="@drawable/inchestometemm1"
+                            tools:ignore="DuplicateSpeakableTextCheck,RtlSymmetry,ImageContrastCheck" />
 
-                <ImageButton
-                    android:id="@+id/feetToMeters"
-                    android:layout_width="match_parent"
-                    android:layout_height="156dp"
-                    android:contentDescription="@string/todo"
-                    android:padding="10dp"
-                    android:src="@drawable/feettometer"
-                    tools:ignore="ImageContrastCheck" />
+                        <Button
+                            android:id="@+id/mmToInch"
+                            android:layout_width="98dp"
+                            android:layout_height="142dp"
+                            android:contentDescription="@string/todo"
+                            android:padding="10dp"
+                            android:backgroundTint="@color/gray"
+                            android:text="MM\n - \nInches"
+                            android:src="@drawable/mmtoinches1"
+                            tools:ignore="ImageContrastCheck" />
+
+                        <Button
+                            android:id="@+id/feetToMeters"
+                            android:layout_width="match_parent"
+                            android:layout_height="156dp"
+                            android:contentDescription="@string/todo"
+                            android:padding="10dp"
+                            android:backgroundTint="@color/gray"
+                            android:text="feets\n -\nMeters"
+                            android:src="@drawable/feettometer"
+                            tools:ignore="ImageContrastCheck" />
 
 
-            </LinearLayout>
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="135dp"
+                        android:layout_height="match_parent"
+                        android:orientation="vertical">
+
+                        <Button
+                            android:id="@+id/metersToFeeet"
+                            android:layout_width="match_parent"
+                            android:layout_height="190dp"
+                            android:clickable="true"
+                            android:contentDescription="@string/todo"
+                            android:focusable="true"
+                            android:paddingStart="10dp"
+                            android:backgroundTint="@color/gray"
+                            android:text="Meters\n - \nFeets"
+                            android:paddingLeft="10dp"
+                            android:src="@drawable/metertofeet1"
+                            tools:ignore="DuplicateSpeakableTextCheck,RtlSymmetry,ImageContrastCheck" />
+
+                        <Button
+                            android:id="@+id/yardsToMeter"
+                            android:layout_width="match_parent"
+                            android:layout_height="128dp"
+                            android:contentDescription="@string/todo"
+                            android:padding="10dp"
+                            android:backgroundTint="@color/gray"
+                            android:text="Yards\n - \nMeters"
+                            android:src="@drawable/yardstometer1"
+                            tools:ignore="ImageContrastCheck" />
+
+                        <Button
+                            android:id="@+id/metersToYards"
+                            android:layout_width="match_parent"
+                            android:backgroundTint="@color/gray"
+                            android:text="Meters\n-\nYards"
+                            android:layout_height="103dp"
+                            android:contentDescription="@string/todo"
+                            android:padding="10dp"
+                            android:src="@drawable/metertoyards1"
+                            tools:ignore="ImageContrastCheck,ImageContrastCheck" />
+
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="109dp"
+                        android:layout_height="match_parent"
+                        android:orientation="vertical">
+
+                        <Button
+                            android:id="@+id/milesToKm"
+                            android:layout_width="match_parent"
+                            android:layout_height="249dp"
+                            android:clickable="true"
+                            android:contentDescription="@string/todo"
+                            android:focusable="true"
+                            android:paddingStart="10dp"
+                            android:backgroundTint="@color/gray"
+                            android:text="Miles\n-\nKm"
+                            android:paddingLeft="10dp"
+                            android:src="@drawable/milestokm1"
+                            tools:ignore="DuplicateSpeakableTextCheck,RtlSymmetry,ImageContrastCheck" />
+
+                        <Button
+                            android:id="@+id/kmToMiles"
+                            android:layout_width="match_parent"
+                            android:layout_height="176dp"
+                            android:contentDescription="@string/todo"
+                            android:padding="10dp"
+                            android:backgroundTint="@color/gray"
+                            android:text="Km\n-\nMiles"
+                            android:src="@drawable/kmtomiles1"
+                            tools:ignore="ImageContrastCheck" />
+
+
+                    </LinearLayout>
+
+                </LinearLayout>
+
+            <ImageView
+                android:id="@+id/imageSwitcher"
+                android:layout_width="410dp"
+                android:layout_height="244dp"
+                android:src="@drawable/imgs"
+                android:paddingTop="50dp"
+                android:paddingBottom="50dp"
+                android:paddingRight="50dp"
+                app:layout_constraintBottom_toTopOf="@+id/linearLayout5"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="1.0"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/linearLayout3"
+                app:layout_constraintVertical_bias="0.416"
+                tools:ignore="MissingConstraints" />
+        <ImageView
+            android:id="@+id/imageSwitcher"
+            android:layout_width="410dp"
+            android:layout_height="244dp"
+            android:src="@drawable/img_21"
+            android:paddingTop="50dp"
+            android:paddingRight="50dp"
+            android:paddingBottom="20dp"
+            app:layout_constraintBottom_toTopOf="@+id/linearLayout5"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="1.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/linearLayout3"
+            app:layout_constraintVertical_bias="0.416"
+            tools:ignore="MissingConstraints" />
 
             <LinearLayout
-                android:layout_width="135dp"
-                android:layout_height="match_parent"
-                android:orientation="vertical">
+                android:id="@+id/linearLayout5"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/linearLayout4"
+                app:layout_constraintVertical_bias="0.866"
+                tools:ignore="MissingConstraints">
 
-                <ImageButton
-                    android:id="@+id/metersToFeeet"
+
+                <Button
+                    android:id="@+id/showMoreTools"
                     android:layout_width="match_parent"
-                    android:layout_height="190dp"
-                    android:clickable="true"
-                    android:contentDescription="@string/todo"
-                    android:focusable="true"
-                    android:paddingStart="10dp"
-                    android:paddingLeft="10dp"
-                    android:src="@drawable/metertofeet1"
-                    tools:ignore="DuplicateSpeakableTextCheck,RtlSymmetry,ImageContrastCheck" />
-
-                <ImageButton
-                    android:id="@+id/yardsToMeter"
-                    android:layout_width="match_parent"
-                    android:layout_height="128dp"
-                    android:contentDescription="@string/todo"
-                    android:padding="10dp"
-
-                    android:src="@drawable/yardstometer1"
-                    tools:ignore="ImageContrastCheck" />
-
-                <ImageButton
-                    android:id="@+id/metersToYards"
-                    android:layout_width="match_parent"
-                    android:layout_height="103dp"
-                    android:contentDescription="@string/todo"
-                    android:padding="10dp"
-                    android:src="@drawable/metertoyards1"
-                    tools:ignore="ImageContrastCheck,ImageContrastCheck" />
+                    android:layout_height="94dp"
+                    android:backgroundTint="@color/light_gray"
+                    android:text="Show More Tools"
+                    android:textColor="@color/black"
+                    android:textSize="24dp" />
 
 
             </LinearLayout>
 
-            <LinearLayout
-                android:layout_width="109dp"
-                android:layout_height="match_parent"
-                android:orientation="vertical">
-
-                <ImageButton
-                    android:id="@+id/milesToKm"
-                    android:layout_width="match_parent"
-                    android:layout_height="249dp"
-                    android:clickable="true"
-                    android:contentDescription="@string/todo"
-                    android:focusable="true"
-                    android:paddingStart="10dp"
-                    android:paddingLeft="10dp"
-                    android:src="@drawable/milestokm1"
-                    tools:ignore="DuplicateSpeakableTextCheck,RtlSymmetry,ImageContrastCheck" />
-
-                <ImageButton
-                    android:id="@+id/kmToMiles"
-                    android:layout_width="match_parent"
-                    android:layout_height="176dp"
-                    android:contentDescription="@string/todo"
-                    android:padding="10dp"
-
-                    android:src="@drawable/kmtomiles1"
-                    tools:ignore="ImageContrastCheck" />
-
-
-            </LinearLayout>
 
         </LinearLayout>
 
 
-    </LinearLayout>
-
-    <ImageView
-        android:id="@+id/imageSwitcher"
-        android:layout_width="410dp"
-        android:layout_height="244dp"
-        android:src="@drawable/imgs"
-        app:layout_constraintBottom_toTopOf="@+id/linearLayout5"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="1.0"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/linearLayout3"
-        app:layout_constraintVertical_bias="0.416"
-        tools:ignore="MissingConstraints" />
-
-    <LinearLayout
-        android:id="@+id/linearLayout5"
-        android:layout_width="407dp"
-        android:layout_height="47dp"
-        android:orientation="vertical"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/linearLayout4"
-        app:layout_constraintVertical_bias="0.866"
-        tools:ignore="MissingConstraints">
-
-
-        <Button
-            android:id="@+id/showMoreTools"
-            android:layout_width="match_parent"
-            android:layout_height="match_parent"
-            android:backgroundTint="@color/white"
-            android:text="Show More Tools"
-            android:textColor="@color/black"
-            android:textSize="24dp" />
-
-
-    </LinearLayout>
+    </ScrollView>
 
 </androidx.constraintlayout.widget.ConstraintLayout>
