@@ -69,17 +69,21 @@
 
 
                 <ImageView
+
                     android:layout_width="102dp"
-                    android:layout_height="wrap_content"
+                    android:layout_height="match_parent"
                     android:paddingLeft="50dp"
                     android:paddingRight="30dp"
-                    android:src="@drawable/timeiconn" />
+                    android:src="@drawable/img" />
 
-                <TextView
+                <Button
+                    android:id="@+id/openFacebook"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:text="Facebook.com"
-                    android:textSize="23dp"
+                    android:backgroundTint="@color/white"
+                    android:textSize="18dp"
+                    android:textColor="@color/gray"
                     android:textIsSelectable="true"
                     android:paddingStart="20dp"
                     android:paddingLeft="20dp"
@@ -96,17 +100,21 @@
                 android:paddingBottom="20dp">
 
                 <ImageView
+
                     android:layout_width="104dp"
                     android:layout_height="38dp"
                     android:paddingLeft="50dp"
                     android:paddingRight="30dp"
-                    android:src="@drawable/timeiconn" />
+                    android:src="@drawable/img_1" />
 
-                <TextView
+                <Button
+                    android:id="@+id/openTwitter"
+                    android:backgroundTint="@color/white"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:text="Twitter"
-                    android:textSize="23dp"
+                    android:textSize="18dp"
+                    android:textColor="@color/gray"
                     android:paddingStart="20dp"
                     android:paddingLeft="20dp"
                     android:paddingTop="10dp"
@@ -121,17 +129,21 @@
                 android:paddingBottom="20dp">
 
                 <ImageView
+
                     android:layout_width="108dp"
                     android:layout_height="wrap_content"
                     android:paddingLeft="50dp"
                     android:paddingRight="30dp"
                     android:src="@drawable/timeiconn" />
 
-                <TextView
+                <Button
+                    android:id="@+id/openItNetwork"
+                    android:backgroundTint="@color/white"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:text="IT Network"
-                    android:textSize="23dp"
+                    android:textSize="18dp"
+                    android:textColor="@color/gray"
                     android:paddingStart="20dp"
                     android:paddingLeft="20dp"
                     android:paddingTop="10dp"
@@ -146,17 +158,21 @@
                 android:paddingBottom="20dp">
 
                 <ImageView
+
                     android:layout_width="110dp"
-                    android:layout_height="wrap_content"
+                    android:layout_height="match_parent"
                     android:paddingLeft="50dp"
                     android:paddingRight="30dp"
-                    android:src="@drawable/timeiconn" />
+                    android:src="@drawable/img_2" />
 
-                <TextView
+                <Button
+                    android:id="@+id/openTelegram"
+                    android:backgroundTint="@color/white"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:text="Telegram"
-                    android:textSize="23dp"
+                    android:textSize="18dp"
+                    android:textColor="@color/gray"
                     android:paddingStart="20dp"
                     android:paddingLeft="20dp"
                     android:paddingTop="10dp"
@@ -171,17 +187,21 @@
                 android:paddingBottom="20dp">
 
                 <ImageView
+
                     android:layout_width="110dp"
                     android:layout_height="40dp"
                     android:paddingLeft="50dp"
                     android:paddingRight="30dp"
-                    android:src="@drawable/timeiconn" />
+                    android:src="@drawable/img_3" />
 
-                <TextView
+                <Button
+                    android:id="@+id/openLinkedIn"
+                    android:backgroundTint="@color/white"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:text="Linked In"
-                    android:textSize="23dp"
+                    android:textSize="18dp"
+                    android:textColor="@color/gray"
                     android:paddingStart="20dp"
                     android:paddingLeft="20dp"
                     android:paddingTop="10dp"
@@ -205,17 +225,21 @@
 
 
                 <ImageView
+
                     android:layout_width="102dp"
-                    android:layout_height="wrap_content"
+                    android:layout_height="match_parent"
                     android:paddingLeft="50dp"
                     android:paddingRight="30dp"
-                    android:src="@drawable/timeiconn" />
+                    android:src="@drawable/img_4" />
 
-                <TextView
+                <Button
+                    android:id="@+id/changeTheme"
+                    android:backgroundTint="@color/white"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:text="Change Theme"
-                    android:textSize="23dp"
+                    android:textSize="18dp"
+                    android:textColor="@color/gray"
                     android:paddingStart="20dp"
                     android:paddingLeft="20dp"
                     android:paddingTop="10dp"
@@ -231,15 +255,18 @@
 
                 <ImageView
                     android:layout_width="104dp"
-                    android:layout_height="38dp"
+                    android:layout_height="59dp"
                     android:paddingLeft="50dp"
                     android:paddingRight="30dp"
-                    android:src="@drawable/timeiconn" />
+                    android:src="@drawable/img_5" />
 
-                <TextView
+                <Button
+                    android:id="@+id/changeLocation"
+                    android:backgroundTint="@color/white"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:text="Change location"
+                    android:textColor="@color/gray"
                     android:textSize="23dp"
                     android:paddingStart="20dp"
                     android:paddingLeft="20dp"
@@ -256,16 +283,19 @@
 
                 <ImageView
                     android:layout_width="108dp"
-                    android:layout_height="wrap_content"
+                    android:layout_height="match_parent"
                     android:paddingLeft="50dp"
                     android:paddingRight="30dp"
-                    android:src="@drawable/timeiconn" />
+                    android:src="@drawable/img_6" />
 
-                <TextView
+                <Button
+                    android:id="@+id/changeAddress"
+                    android:backgroundTint="@color/white"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:text="Change E-mail address"
-                    android:textSize="23dp"
+                    android:textSize="18dp"
+                    android:textColor="@color/gray"
                     android:paddingStart="20dp"
                     android:paddingLeft="20dp"
                     android:paddingTop="10dp"
@@ -281,16 +311,18 @@
 
                 <ImageView
                     android:layout_width="110dp"
-                    android:layout_height="wrap_content"
+                    android:layout_height="match_parent"
                     android:paddingLeft="50dp"
                     android:paddingRight="30dp"
-                    android:src="@drawable/timeiconn" />
+                    android:src="@drawable/img_7" />
 
-                <TextView
+                <Button
+                    android:backgroundTint="@color/white"
+                    android:textColor="@color/gray"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:text="Customer Service"
-                    android:textSize="23dp"
+                    android:textSize="18dp"
                     android:paddingStart="20dp"
                     android:paddingLeft="20dp"
                     android:paddingTop="10dp"
@@ -305,7 +337,10 @@
                 android:paddingBottom="20dp"
                 android:textAlignment="center">
 
-                <TextView
+                <Button
+                    android:id="@+id/customerServices"
+                    android:backgroundTint="@color/white"
+                    android:textColor="@color/black"
                     android:layout_width="match_parent"
                     android:layout_height="match_parent"
                     android:text="version : 1.0.0"

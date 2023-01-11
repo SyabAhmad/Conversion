@@ -32,7 +32,8 @@
 
     <ScrollView
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
+        android:layout_height="834dp"
+        app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/linearLayout8">
@@ -69,7 +70,7 @@
                 android:paddingStart="20dp"
                 android:paddingTop="50dp"
                 android:paddingBottom="50dp"
-                android:text="Assalam-o-Alaikum Friends, This is Syab Ahmad, the Developer and CEO of Sadaat AI Company which does not exist at this time\nI am Currently studying Software Engineering at University of Swat. for any queries you can contact me through Email Address and WhatsApp Number.\n\n sadaat@gmail.com\n ph# +922460561173\n\nThank You very much guys for using our technology, if you like this software, please share with your beloved ones also \n\nRegards: SEO Syab Ahmad"
+                android:text="Assalam-o-Alaikum Friends,\nThis is Syab Ahmad, the Developer and CEO of Sadaat AI Company which does not exist at this time\nFor any queries you can contact me through Email Address and WhatsApp Number.\n\n\t\t\t\t sadaat@gmail.com\n\t\t\t\t ph# +922460561173\n\nThank You very much guys for using our technology, if you like this software, please share with your beloved ones also...\nYou can Connect with Me in the Setting Section \n\nRegards: CEO Syab Ahmad (de Developer) \n\nDate: 11th JUN, 2023"
                 android:textColor="@color/black"
                 android:textSize="18dp" />
 
@@ -307,7 +308,7 @@
                     android:paddingStart="20dp"
                     android:paddingTop="40dp"
                     android:paddingBottom="40dp"
-                    android:text="You can Connect with me through the following Links"
+                    android:text="My Portfolio"
                     android:textAlignment="center"
                     android:textColor="@color/blue"
                     android:textSize="22sp" />
@@ -316,132 +317,28 @@
             <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:orientation="horizontal">
+                android:orientation="vertical">
 
-                <TextView
+                <ImageView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:src="@drawable/img_8"/>
+                <ImageView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:paddingStart="80dp"
-                    android:paddingEnd="30dp"
-                    android:text="Name"
-                    android:textColor="@color/blue"
-                    android:textSize="28sp" />
-
-
-                <TextView
+                    android:src="@drawable/img_9"/>
+                <ImageView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:paddingStart="80dp"
-                    android:paddingEnd="30dp"
-                    android:text="Link"
-                    android:textColor="@color/red"
-                    android:textSize="28sp" />
+                    android:src="@drawable/img_10"/>
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/img_11"/>
+
 
 
             </LinearLayout>
-
-            <LinearLayout
-                android:layout_width="match_parent"
-                android:layout_height="370dp"
-                android:orientation="horizontal">
-
-
-                <LinearLayout
-                    android:layout_width="192dp"
-                    android:layout_height="wrap_content"
-                    android:orientation="vertical">
-
-                    <TextView
-                        android:layout_width="wrap_content"
-                        android:layout_height="49dp"
-                        android:paddingStart="40dp"
-                        android:paddingEnd="30dp"
-                        android:text="Github"
-                        android:textSize="22sp" />
-
-                    <TextView
-                        android:layout_width="wrap_content"
-                        android:layout_height="53dp"
-                        android:paddingStart="40dp"
-                        android:paddingEnd="30dp"
-                        android:text="LinkedIn"
-                        android:textSize="22sp" />
-
-                    <TextView
-                        android:layout_width="wrap_content"
-                        android:layout_height="82dp"
-                        android:paddingStart="40dp"
-                        android:paddingEnd="30dp"
-                        android:text="Stack Overflow"
-                        android:textSize="22sp" />
-
-                    <TextView
-                        android:layout_width="wrap_content"
-                        android:layout_height="48dp"
-                        android:paddingStart="40dp"
-                        android:paddingEnd="30dp"
-                        android:text="Twitter"
-                        android:textSize="22sp" />
-
-                    <TextView
-                        android:layout_width="wrap_content"
-                        android:layout_height="78dp"
-                        android:paddingStart="40dp"
-                        android:paddingEnd="30dp"
-                        android:text="YouTube"
-                        android:textSize="22sp" />
-
-                </LinearLayout>
-
-
-                <LinearLayout
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:orientation="vertical">
-
-                    <TextView
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:paddingStart="40dp"
-                        android:paddingEnd="30dp"
-                        android:text="github.com/SyabAhmad"
-                        android:textSize="20sp" />
-
-                    <TextView
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:paddingStart="40dp"
-                        android:paddingEnd="30dp"
-                        android:text="syedsyabahmadshah"
-                        android:textSize="20sp" />
-
-                    <TextView
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:paddingStart="40dp"
-                        android:paddingEnd="30dp"
-                        android:text="stackoverflow.come/SyabAhmad"
-                        android:textSize="20sp" />
-
-                    <TextView
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:paddingStart="40dp"
-                        android:paddingEnd="30dp"
-                        android:text="syedsyabahmadshah"
-                        android:textSize="20sp" />
-
-                    <TextView
-                        android:layout_width="wrap_content"
-                        android:layout_height="63dp"
-                        android:paddingStart="40dp"
-                        android:paddingEnd="30dp"
-                        android:text="Real Coder"
-                        android:textSize="20sp" />
-
-
-                </LinearLayout>
-
 
             </LinearLayout>
 
@@ -454,7 +351,7 @@
                 android:textColor="@color/blue"
                 android:textSize="12sp" />
 
-        </LinearLayout>
+
 
 
     </ScrollView>

@@ -70,19 +70,19 @@
                 >
 
                 <ImageButton
-                    android:layout_width="191dp"
+                    android:layout_width="96dp"
                     android:layout_height="match_parent"
                     android:src="@drawable/heaticon" />
 
                 <Button
                     android:id="@+id/temperatureButtonfinder"
                     android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
+                    android:layout_height="match_parent"
                     android:layout_gravity="center_horizontal"
+                    android:backgroundTint="@color/white"
                     android:text="Temperature\n"
                     android:textAlignment="center"
                     android:textColor="@color/black"
-                    android:backgroundTint="@color/white"
                     android:textSize="22dp"
                     android:textStyle="bold" />
 
@@ -95,8 +95,8 @@
                 android:orientation="horizontal">
 
                 <ImageButton
-                    android:layout_width="193dp"
-                    android:layout_height="88dp"
+                    android:layout_width="96dp"
+                    android:layout_height="74dp"
                     android:src="@drawable/massicon" />
 
                 <Button
@@ -119,19 +119,19 @@
                 android:orientation="horizontal">
 
                 <ImageButton
-                    android:layout_width="131dp"
+                    android:layout_width="99dp"
                     android:layout_height="match_parent"
                     android:src="@drawable/computericon" />
 
                 <Button
                     android:id="@+id/computerConversionButtenFinder"
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:textColor="@color/black"
-                    android:backgroundTint="@color/white"
+                    android:layout_width="306dp"
+                    android:layout_height="88dp"
                     android:layout_gravity="center_horizontal"
+                    android:backgroundTint="@color/white"
                     android:text="computer Conversion"
                     android:textAlignment="center"
+                    android:textColor="@color/black"
                     android:textSize="22dp"
                     android:textStyle="bold" />
 
@@ -146,19 +146,19 @@
                 android:orientation="horizontal">
 
                 <ImageButton
-                    android:layout_width="122dp"
+                    android:layout_width="99dp"
                     android:layout_height="match_parent"
                     android:src="@drawable/speedicon" />
 
                 <Button
                     android:id="@+id/speedButtonFinder"
                     android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
+                    android:layout_height="88dp"
                     android:layout_gravity="center_horizontal"
-                    android:text="Speed Convertor\n"
-                    android:textColor="@color/black"
                     android:backgroundTint="@color/white"
+                    android:text="Speed Convertor\n"
                     android:textAlignment="center"
+                    android:textColor="@color/black"
                     android:textSize="22dp"
                     android:textStyle="bold" />
 
@@ -242,12 +242,12 @@
                 <Button
                     android:id="@+id/fuelButtonFinder"
                     android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
+                    android:layout_height="88dp"
                     android:layout_gravity="center_horizontal"
+                    android:backgroundTint="@color/white"
                     android:text="Fuel Convertor"
                     android:textAlignment="center"
                     android:textColor="@color/black"
-                    android:backgroundTint="@color/white"
                     android:textSize="22dp"
                     android:textStyle="bold" />
 
@@ -267,12 +267,12 @@
                 <Button
                     android:id="@+id/forceButtonFinder"
                     android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
+                    android:layout_height="88dp"
                     android:layout_gravity="center_horizontal"
-                    android:text="Force Convertor\n"
-                    android:textColor="@color/black"
                     android:backgroundTint="@color/white"
+                    android:text="Force Convertor\n"
                     android:textAlignment="center"
+                    android:textColor="@color/black"
                     android:textSize="22dp"
                     android:textStyle="bold" />
 
@@ -340,13 +340,13 @@
                 <Button
                     android:id="@+id/soundButtonFinder"
                     android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
+                    android:layout_height="88dp"
                     android:layout_gravity="center_horizontal"
+                    android:backgroundTint="@color/white"
                     android:text="Sound Convertor\n"
                     android:textAlignment="center"
-                    android:textSize="22dp"
                     android:textColor="@color/black"
-                    android:backgroundTint="@color/white"
+                    android:textSize="22dp"
                     android:textStyle="bold" />
 
             </LinearLayout>
@@ -388,12 +388,12 @@
                 <Button
                     android:id="@+id/resolutionButtonFinder"
                     android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
+                    android:layout_height="88dp"
                     android:layout_gravity="center_horizontal"
+                    android:backgroundTint="@color/white"
                     android:text="Resolution Convertor"
                     android:textAlignment="center"
                     android:textColor="@color/black"
-                    android:backgroundTint="@color/white"
                     android:textSize="22dp"
                     android:textStyle="bold" />
 
@@ -462,12 +462,12 @@
                 <Button
                     android:id="@+id/heatDensityButtonFinder"
                     android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
+                    android:layout_height="88dp"
                     android:layout_gravity="center_horizontal"
+                    android:backgroundTint="@color/white"
                     android:text="Heat Density\n"
                     android:textAlignment="center"
                     android:textColor="@color/black"
-                    android:backgroundTint="@color/white"
                     android:textSize="22dp"
                     android:textStyle="bold" />
 
