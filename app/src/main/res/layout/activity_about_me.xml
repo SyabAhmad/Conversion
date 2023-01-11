@@ -6,12 +6,36 @@
     android:layout_height="match_parent"
     tools:context=".AboutMe">
 
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        >
+
+        <ImageButton
+            android:id="@+id/backToMainManu1"
+            android:layout_width="93dp"
+            android:layout_height="66dp"
+            android:src="@drawable/ic_baseline_arrow_back_24" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:paddingLeft="40dp"
+            android:paddingTop="10dp"
+            android:text="About Me"
+            android:textSize="30dp" />
+
+
+    </LinearLayout>
+
     <ScrollView
         android:layout_width="match_parent"
-        android:layout_height="match_parent"
+        android:layout_height="wrap_content"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        tools:layout_editor_absoluteY="67dp">
+        app:layout_constraintTop_toBottomOf="@+id/linearLayout8">
 
 
         <LinearLayout
@@ -43,11 +67,11 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:paddingStart="20dp"
+                android:paddingTop="50dp"
+                android:paddingBottom="50dp"
                 android:text="Assalam-o-Alaikum Friends, This is Syab Ahmad, the Developer and CEO of Sadaat AI Company which does not exist at this time\nI am Currently studying Software Engineering at University of Swat. for any queries you can contact me through Email Address and WhatsApp Number.\n\n sadaat@gmail.com\n ph# +922460561173\n\nThank You very much guys for using our technology, if you like this software, please share with your beloved ones also \n\nRegards: SEO Syab Ahmad"
                 android:textColor="@color/black"
-                android:textSize="18dp"
-                android:paddingBottom="50dp"
-                android:paddingTop="50dp"/>
+                android:textSize="18dp" />
 
             <LinearLayout
                 android:layout_width="match_parent"
@@ -56,13 +80,13 @@
                 <TextView
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:textSize="22sp"
                     android:paddingStart="20dp"
                     android:paddingTop="40dp"
                     android:paddingBottom="40dp"
+                    android:text="My Experience and Fields\nProgramming Languages Only "
                     android:textAlignment="center"
                     android:textColor="@color/orange"
-                    android:text="My Experience and Fields\nProgramming Languages Only "/>
+                    android:textSize="22sp" />
             </LinearLayout>
 
 
@@ -143,6 +167,7 @@
                         android:textAlignment="center"
                         android:textColor="@color/black"
                         android:textSize="24sp" />
+
                     <TextView
                         android:layout_width="wrap_content"
                         android:layout_height="86dp"
@@ -154,6 +179,7 @@
                         android:textAlignment="center"
                         android:textColor="@color/black"
                         android:textSize="24sp" />
+
                     <TextView
                         android:layout_width="wrap_content"
                         android:layout_height="86dp"
@@ -165,6 +191,7 @@
                         android:textAlignment="center"
                         android:textColor="@color/black"
                         android:textSize="24sp" />
+
                     <TextView
                         android:layout_width="wrap_content"
                         android:layout_height="86dp"
@@ -277,40 +304,38 @@
                 <TextView
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:textSize="22sp"
                     android:paddingStart="20dp"
                     android:paddingTop="40dp"
                     android:paddingBottom="40dp"
+                    android:text="You can Connect with me through the following Links"
                     android:textAlignment="center"
                     android:textColor="@color/blue"
-                    android:text="You can Connect with me through the following Links"/>
+                    android:textSize="22sp" />
             </LinearLayout>
 
             <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:orientation="horizontal"
-                >
+                android:orientation="horizontal">
+
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="Name"
-                    android:textSize="28sp"
-                    android:textColor="@color/blue"
                     android:paddingStart="80dp"
                     android:paddingEnd="30dp"
-                    />
+                    android:text="Name"
+                    android:textColor="@color/blue"
+                    android:textSize="28sp" />
 
 
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
+                    android:paddingStart="80dp"
+                    android:paddingEnd="30dp"
                     android:text="Link"
                     android:textColor="@color/red"
-                    android:textSize="28sp"
-                    android:paddingStart="80dp"
-                    android:paddingEnd="30dp"
-                    />
+                    android:textSize="28sp" />
 
 
             </LinearLayout>
@@ -418,17 +443,16 @@
                 </LinearLayout>
 
 
-
             </LinearLayout>
 
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="match_parent"
+                android:layout_gravity="center"
                 android:text="version 1.0.0"
-                android:textColor="@color/blue"
-                android:textSize="12sp"
                 android:textAlignment="center"
-                android:layout_gravity="center"/>
+                android:textColor="@color/blue"
+                android:textSize="12sp" />
 
         </LinearLayout>
 

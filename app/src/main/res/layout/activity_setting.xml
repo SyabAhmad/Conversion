@@ -78,13 +78,15 @@
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="Facebook"
+                    android:text="Facebook.com"
                     android:textSize="23dp"
+                    android:textIsSelectable="true"
                     android:paddingStart="20dp"
                     android:paddingLeft="20dp"
                     android:paddingTop="10dp"
                     android:paddingBottom="10dp"/>
-
+                <!--                    &lt;!&ndash;android:text="<a href='http://www.example.com'>facebook.com</a>"-!>-->
+                <!--                    android:movementMethod="linkMovementMethod"-->
             </LinearLayout>
 
             <LinearLayout

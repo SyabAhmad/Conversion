@@ -70,9 +70,9 @@
                 >
 
                 <ImageButton
-                    android:layout_width="199dp"
+                    android:layout_width="191dp"
                     android:layout_height="match_parent"
-                    android:src="@drawable/lenicon" />
+                    android:src="@drawable/heaticon" />
 
                 <Button
                     android:id="@+id/temperatureButtonfinder"
@@ -97,7 +97,7 @@
                 <ImageButton
                     android:layout_width="193dp"
                     android:layout_height="88dp"
-                    android:src="@drawable/lenicon" />
+                    android:src="@drawable/massicon" />
 
                 <Button
                     android:id="@+id/weightButtonFinder"
@@ -119,9 +119,9 @@
                 android:orientation="horizontal">
 
                 <ImageButton
-                    android:layout_width="129dp"
+                    android:layout_width="131dp"
                     android:layout_height="match_parent"
-                    android:src="@drawable/lenicon" />
+                    android:src="@drawable/computericon" />
 
                 <Button
                     android:id="@+id/computerConversionButtenFinder"
@@ -146,9 +146,9 @@
                 android:orientation="horizontal">
 
                 <ImageButton
-                    android:layout_width="133dp"
+                    android:layout_width="122dp"
                     android:layout_height="match_parent"
-                    android:src="@drawable/lenicon" />
+                    android:src="@drawable/speedicon" />
 
                 <Button
                     android:id="@+id/speedButtonFinder"
