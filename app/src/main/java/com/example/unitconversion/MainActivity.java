@@ -46,9 +46,9 @@ public class MainActivity extends AppCompatActivity {
         setting.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Toast.makeText(getApplicationContext(),"Setting will be Added\n In Sha Allah", Toast.LENGTH_SHORT).show();
-//                Intent intent = new Intent(MainActivity.this, aboutMe.class);
-//                startActivity(intent);
+                //Toast.makeText(getApplicationContext(),"Setting will be Added\n In Sha Allah", Toast.LENGTH_SHORT).show();
+                Intent intent = new Intent(MainActivity.this, setting.class);
+                startActivity(intent);
             }
         });
 
