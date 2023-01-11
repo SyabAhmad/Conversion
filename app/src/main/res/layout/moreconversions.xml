@@ -95,7 +95,7 @@
                 android:orientation="horizontal">
 
                 <ImageButton
-                    android:layout_width="104dp"
+                    android:layout_width="193dp"
                     android:layout_height="88dp"
                     android:src="@drawable/lenicon" />
 
@@ -119,7 +119,7 @@
                 android:orientation="horizontal">
 
                 <ImageButton
-                    android:layout_width="199dp"
+                    android:layout_width="129dp"
                     android:layout_height="match_parent"
                     android:src="@drawable/lenicon" />
 
@@ -137,13 +137,56 @@
 
             </LinearLayout>
 
+
+
+
             <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="88dp"
                 android:orientation="horizontal">
 
                 <ImageButton
-                    android:layout_width="99dp"
+                    android:layout_width="133dp"
+                    android:layout_height="match_parent"
+                    android:src="@drawable/lenicon" />
+
+                <Button
+                    android:id="@+id/speedButtonFinder"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_horizontal"
+                    android:text="Speed Convertor\n"
+                    android:textColor="@color/black"
+                    android:backgroundTint="@color/white"
+                    android:textAlignment="center"
+                    android:textSize="22dp"
+                    android:textStyle="bold" />
+
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                >
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Coming SOon"
+                    android:textSize="30dp"
+                    android:paddingTop="10dp"
+                    android:paddingStart="30dp"
+                    android:paddingBottom="10dp"
+                    android:textColor="@color/black"/>
+
+
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="88dp"
+                android:orientation="horizontal">
+
+                <ImageButton
+                    android:layout_width="218dp"
                     android:layout_height="match_parent"
                     android:src="@drawable/lenicon" />
 
@@ -161,39 +204,13 @@
 
             </LinearLayout>
 
-
             <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="88dp"
                 android:orientation="horizontal">
 
                 <ImageButton
-                    android:layout_width="214dp"
-                    android:layout_height="match_parent"
-                    android:src="@drawable/lenicon" />
-
-                <Button
-                    android:id="@+id/speedButtonFinder"
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:layout_gravity="center_horizontal"
-                    android:text="Speed Convertor\n"
-                    android:textColor="@color/black"
-                    android:backgroundTint="@color/white"
-                    android:textAlignment="center"
-                    android:textSize="22dp"
-                    android:textStyle="bold" />
-
-            </LinearLayout>
-
-
-            <LinearLayout
-                android:layout_width="match_parent"
-                android:layout_height="88dp"
-                android:orientation="horizontal">
-
-                <ImageButton
-                    android:layout_width="104dp"
+                    android:layout_width="219dp"
                     android:layout_height="88dp"
                     android:src="@drawable/lenicon" />
 
@@ -218,7 +235,7 @@
                 android:orientation="horizontal">
 
                 <ImageButton
-                    android:layout_width="212dp"
+                    android:layout_width="136dp"
                     android:layout_height="match_parent"
                     android:src="@drawable/lenicon" />
 
@@ -243,7 +260,7 @@
                 android:orientation="horizontal">
 
                 <ImageButton
-                    android:layout_width="104dp"
+                    android:layout_width="136dp"
                     android:layout_height="88dp"
                     android:src="@drawable/lenicon" />
 
@@ -292,7 +309,7 @@
                 android:orientation="horizontal">
 
                 <ImageButton
-                    android:layout_width="104dp"
+                    android:layout_width="206dp"
                     android:layout_height="88dp"
                     android:src="@drawable/lenicon" />
 
@@ -316,7 +333,7 @@
                 android:orientation="horizontal">
 
                 <ImageButton
-                    android:layout_width="203dp"
+                    android:layout_width="101dp"
                     android:layout_height="88dp"
                     android:src="@drawable/lenicon" />
 
@@ -389,7 +406,7 @@
                 android:orientation="horizontal">
 
                 <ImageButton
-                    android:layout_width="104dp"
+                    android:layout_width="196dp"
                     android:layout_height="88dp"
                     android:src="@drawable/lenicon" />
 
@@ -413,7 +430,7 @@
                 android:orientation="horizontal">
 
                 <ImageButton
-                    android:layout_width="199dp"
+                    android:layout_width="102dp"
                     android:layout_height="88dp"
                     android:src="@drawable/lenicon" />
 

@@ -18,6 +18,7 @@
         <entry key="..\:/AndroidDevelopment/UnitConversion/app/src/main/res/layout/mmtoinches.xml" value="0.22" />
         <entry key="..\:/AndroidDevelopment/UnitConversion/app/src/main/res/layout/moreconversions.xml" value="0.18" />
         <entry key="..\:/AndroidDevelopment/UnitConversion/app/src/main/res/layout/moreconvertsions.xml" value="0.18" />
+        <entry key="..\:/AndroidDevelopment/UnitConversion/app/src/main/res/layout/speedconvertor.xml" value="0.22" />
         <entry key="..\:/AndroidDevelopment/UnitConversion/app/src/main/res/layout/temperaturepanel.xml" value="0.2" />
         <entry key="..\:/AndroidDevelopment/UnitConversion/app/src/main/res/layout/timemonthtoweek.xml" value="0.17101325352714836" />
         <entry key="..\:/AndroidDevelopment/UnitConversion/app/src/main/res/layout/timeweekstodays.xml" value="0.1718683197947841" />
@@ -36,7 +37,7 @@
   <component name="VisualizationToolProject">
     <option name="state">
       <ProjectState>
-        <option name="scale" value="0.33" />
+        <option name="scale" value="0.22" />
       </ProjectState>
     </option>
   </component>

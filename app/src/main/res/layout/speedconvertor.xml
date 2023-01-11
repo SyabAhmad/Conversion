@@ -1,0 +1,229 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".speedConvertor">
+
+    <LinearLayout
+        android:id="@+id/linearLayout7"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <ImageButton
+            android:id="@+id/backToConversionTools"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:paddingStart="40dp"
+            android:paddingLeft="40dp"
+            android:paddingEnd="40dp"
+            android:src="@drawable/ic_baseline_arrow_back_24"
+            android:contentDescription="TODO"
+            tools:ignore="ContentDescription" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingLeft="20dp"
+            android:paddingTop="20dp"
+            android:paddingBottom="20dp"
+            android:text="Speed Convertor"
+            android:textSize="28sp" />
+
+
+    </LinearLayout>
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/linearLayout7"
+        app:layout_constraintVertical_bias="0.058"
+        tools:layout_editor_absoluteX="0dp">
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingStart="20dp"
+                android:paddingTop="10dp"
+                android:paddingBottom="10dp"
+                android:text="Meter/second"
+                android:textColor="@color/black"
+                android:textSize="28dp" />
+
+            <EditText
+                android:id="@+id/meters"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingStart="20dp"
+                android:paddingTop="10dp"
+                android:paddingBottom="10dp"
+                android:hint="m/s"
+                android:textAlignment="center"
+                android:textColor="@color/black"
+                android:textSize="28dp" />
+
+            <TextView
+
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingStart="20dp"
+                android:paddingTop="10dp"
+                android:paddingBottom="10dp"
+                android:text="Kilo Meter/second"
+                android:textColor="@color/black"
+                android:textSize="28dp" />
+
+
+            <EditText
+                android:id="@+id/kmeterHour"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingStart="20dp"
+                android:paddingTop="10dp"
+                android:paddingBottom="10dp"
+                android:hint="km/s"
+                android:textAlignment="center"
+                android:textColor="@color/black"
+                android:textSize="28dp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingStart="20dp"
+                android:paddingTop="10dp"
+                android:paddingBottom="10dp"
+                android:text="Kilo Meters/Hour"
+                android:textColor="@color/black"
+                android:textSize="28dp" />
+
+
+            <EditText
+                android:id="@+id/kmeterSecond"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Km/h"
+                android:paddingStart="20dp"
+                android:paddingTop="10dp"
+                android:paddingBottom="10dp"
+                android:textAlignment="center"
+                android:textColor="@color/black"
+                android:textSize="28dp" />
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingStart="20dp"
+                android:paddingTop="10dp"
+                android:paddingBottom="10dp"
+                android:text="Miles/h"
+                android:textColor="@color/black"
+                android:textSize="28dp" />
+
+            <EditText
+                android:id="@+id/milesHours"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingStart="20dp"
+                android:paddingTop="10dp"
+                android:paddingBottom="10dp"
+                android:hint="M/h"
+                android:textAlignment="center"
+                android:textColor="@color/black"
+                android:textSize="28dp" />
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingStart="20dp"
+                android:paddingTop="10dp"
+                android:paddingBottom="10dp"
+                android:text="Feets/h"
+                android:textColor="@color/black"
+                android:textSize="28dp" />
+
+            <EditText
+                android:id="@+id/feetHours"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingStart="20dp"
+                android:paddingTop="10dp"
+                android:paddingBottom="10dp"
+                android:hint="F/h"
+                android:textAlignment="center"
+                android:textColor="@color/black"
+                android:textSize="28dp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingStart="20dp"
+                android:paddingTop="10dp"
+                android:paddingBottom="10dp"
+                android:text="Knots/h"
+                android:textColor="@color/black"
+                android:textSize="28dp" />
+
+            <EditText
+                android:id="@+id/knotHours"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingStart="20dp"
+                android:paddingTop="10dp"
+                android:paddingBottom="10dp"
+                android:hint="Kn/h"
+                android:textAlignment="center"
+                android:textColor="@color/black"
+                android:textSize="28dp" />
+
+
+            <Button
+                android:id="@+id/speedFinder"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:backgroundTint="@color/white"
+                android:text="Find Now"
+                android:textSize="24dp"
+                android:textColor="@color/black"
+                app:layout_constraintTop_toBottomOf="@+id/scrollView4"
+                tools:ignore="MissingConstraints"
+                tools:layout_editor_absoluteX="6dp" />
+
+            <Button
+                android:id="@+id/clearAllsSpeed"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:backgroundTint="@color/white"
+                android:text="Clear All"
+                android:textSize="24dp"
+                android:textColor="@color/black"
+                app:layout_constraintBottom_toTopOf="@+id/backToConversionTools"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.0"
+
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/binFinder"
+                tools:ignore="MissingConstraints" />
+
+        </LinearLayout>
+
+
+
+
+    </ScrollView>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

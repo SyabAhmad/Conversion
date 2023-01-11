@@ -72,13 +72,15 @@ public class moreConversionTools extends AppCompatActivity {
         speedConvertor.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Toast.makeText(getApplicationContext(), "Coming SOon", Toast.LENGTH_SHORT).show();
+                Toast.makeText(getApplicationContext(), "Speed Panel", Toast.LENGTH_SHORT).show();
+                Intent intent = new Intent(moreConversionTools.this, speedConvertor.class);
+                startActivity(intent);
             }
         });
 
 
-        Button currenConvertor = (Button) findViewById(R.id.currentButtonFinder);
-        speedConvertor.setOnClickListener(new View.OnClickListener() {
+        Button currentConvertor = (Button) findViewById(R.id.currentButtonFinder);
+        currentConvertor.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
                 Toast.makeText(getApplicationContext(), "Coming SOon", Toast.LENGTH_SHORT).show();
